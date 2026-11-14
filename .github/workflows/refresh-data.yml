@@ -1,0 +1,50 @@
+name: 刷新榜单数据
+
+# 让页面跟着 GitHub 走：每天抓一次、重新合并、有变化就提交。
+# 提交后 GitHub Pages 会重新发布，访客打开就是新快照。
+
+on:
+  schedule:
+    - cron: '17 1 * * *' # UTC 01:17 = 北京时间 09:17，避开整点的调度高峰
+  workflow_dispatch: # 也可以在 Actions 页面手动点一下
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 抓取 GitHub
+        run: node scripts/fetch-github.mjs
+        env:
+          # 用内置 token，限速从 60/h 提到 5000/h
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 合并策展层
+        run: node scripts/build-data.mjs
+
+      - name: 打包单文件（dist/toolradar.html，方便下载转发）
+        run: node scripts/build-single.mjs
+
+      - name: 有变化才提交
+        run: |
+          git config user.name  "toolradar-bot"
+          git config user.email "toolradar-bot@users.noreply.github.com"
+          git add data dist
+          if git diff --cached --quiet; then
+            echo "今天没有变化，不提交。"
+          else
+            git commit -m "chore(data): 每日快照 $(date -u +%F)"
+            git push
+          fi
