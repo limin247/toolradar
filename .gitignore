@@ -7,3 +7,6 @@ node_modules/
 .DS_Store
 Thumbs.db
 data/_list.txt
+
+# curl 探针输出
+headers.txt

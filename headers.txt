@@ -1,6 +1,0 @@
-HTTP/1.1 200 OK
-Content-Length: 333981
-Content-Type: text/html; charset=utf-8
-X-Robots-Tag: noindex, nofollow
-Date: Sat, 14 Nov 2026 13:44:11 GMT
-
