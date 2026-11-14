@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T11:26:48.255Z",
+  "fetchedAt": "2026-11-14T13:56:58.639Z",
   "queries": {
     "hall-of-fame": {
       "q": "stars:>60000",
@@ -9,12 +9,12 @@
     "new-week": {
       "q": "created:>2026-11-07 stars:>10",
       "returned": 100,
-      "total": 2857
+      "total": 3062
     },
     "new-month": {
       "q": "created:>2026-10-15 stars:>80",
       "returned": 100,
-      "total": 4211
+      "total": 4347
     },
     "cli": {
       "q": "topic:cli stars:>1500",
@@ -74,7 +74,7 @@
     "agents": {
       "q": "topic:ai-agents stars:>800",
       "returned": 100,
-      "total": 907
+      "total": 909
     },
     "docs": {
       "q": "topic:documentation stars:>1000",
@@ -87,7 +87,7 @@
       "total": 107
     }
   },
-  "tokenUsage": "anonymous",
+  "tokenUsage": "token",
   "snapshots": [
     "2026-11-14"
   ]
