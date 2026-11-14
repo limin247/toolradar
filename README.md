@@ -16,6 +16,14 @@ node scripts/serve.mjs 8710
 
 零依赖，不需要 npm install、不需要构建。
 
+### 打包成单文件
+
+```bash
+node scripts/build-single.mjs   # -> dist/toolradar.html（约 309KB）
+```
+
+把 `index.html` + `assets/style.css` + `assets/app.js` + `data/tools.js` 内联成一个文件：双击即开、可以单独发给别人、微信/邮件附件都不会丢 CSS 和数据。代价是数据更新后要重新生成，且 diff 不可读——所以平时开发还是改分开的四份，发布时再打包。
+
 ## 榜单口径（页脚 methods 里有同一份说明）
 
 | 榜单 | 定义 | 说明 |
