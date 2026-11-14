@@ -229,7 +229,7 @@
         <div class="row-side">
           <div class="meta">
             <span class="star">★ ${fmt(t.stars)}</span>
-            ${dal !== null ? `<span style="color:var(--mint)">${dal > 0 ? '+' : ''}${fmt(dal)}</span>` : ''}
+            ${dal !== null ? `<span style="color:var(--good)">${dal > 0 ? '+' : ''}${fmt(dal)}</span>` : ''}
             ${t.lang ? `<span class="lang"><i></i>${esc(t.lang)}</span>` : ''}
             <span>${ago(daysSince(t.pushed))}</span>
           </div>
@@ -269,7 +269,11 @@
         ? '你还没收藏这个范围里的工具。点列表右侧的 ☆ 收藏，或者关掉「只看收藏」。'
         : state.board === 'week' || state.board === 'month'
           ? `快照日 ${D.snapshot} 往前推 ${state.board === 'week' ? 7 : 30} 天，这个场景没有新仓库进榜——不是页面坏了，是新库本来就少。`
-          : `「${state.q || '当前筛选'}」在这个场景下没有匹配。`;
+          : state.q.trim()
+            ? state.scene === 'all'
+              ? `没有找到匹配“${state.q}”的工具。换个关键词试试。`
+              : `“${state.q}”在「${(D.scenarios.find((s) => s.id === state.scene) || {}).name || '这个场景'}」里没有匹配。`
+            : '这个组合下没有工具。';
       $('#emptyActs').innerHTML = acts
         .map(([k, label]) => `<button class="note-btn" data-quick="${k}">${label}</button>`)
         .join('');
@@ -307,7 +311,7 @@
         ${t.fit ? `<div class="d-fit"><h5>怎么选</h5><p>${esc(t.fit)}</p></div>` : ''}
       </div>
       <dl class="d-grid">
-        <div><dt>Stars</dt><dd style="color:var(--gold)">${t.stars.toLocaleString()}</dd></div>
+        <div><dt>Stars</dt><dd>${t.stars.toLocaleString()}</dd></div>
         <div><dt>Forks</dt><dd>${t.forks.toLocaleString()}</dd></div>
         <div><dt>创建</dt><dd style="font-size:.8rem">${esc(t.created)}</dd></div>
         <div><dt>最近提交</dt><dd style="font-size:.8rem">${esc(t.pushed)}<small style="color:var(--ink-4)"> · ${ago(daysSince(t.pushed))}</small></dd></div>
@@ -381,7 +385,7 @@
           ${row('创建', (t) => esc(t.created))}
           ${row('最近提交', (t) => `${esc(t.pushed)} <span style="color:var(--ink-4)">(${ago(daysSince(t.pushed))})</span>`)}
           ${row('标签', (t) => (t.tags || []).map(esc).join(' · ') || '—')}
-          ${row('', (t) => `<a class="act" style="color:var(--gold)" href="${esc(t.url)}" target="_blank" rel="noopener">打开 ↗</a>`)}
+          ${row('', (t) => `<a class="act" style="color:var(--ink)" href="${esc(t.url)}" target="_blank" rel="noopener">打开 ↗</a>`)}
         </tbody>
       </table></div>`;
     $('#compareSheet').hidden = false;

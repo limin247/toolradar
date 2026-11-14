@@ -6,11 +6,10 @@
 <title>工具雷达 · 按工作场景挑 GitHub 工具</title>
 <meta name="description" content="按工作场景分类的 GitHub 工具榜单：星标总榜、本周新星、本月新星、活跃榜、上升榜。数据来自 GitHub 搜索 API 快照。">
 <link rel="stylesheet" href="assets/style.css">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23ffb454'/><circle cx='16' cy='16' r='4' fill='%23070809'/><circle cx='16' cy='16' r='9' fill='none' stroke='%23070809' stroke-width='2.5' stroke-dasharray='3 4'/></svg>">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23ffffff'/><circle cx='16' cy='16' r='4' fill='%2317171a'/><circle cx='16' cy='16' r='9' fill='none' stroke='%2317171a' stroke-width='2' stroke-dasharray='3 4'/><path d='M16 16 23 9.5' stroke='%2317171a' stroke-width='2' stroke-linecap='round'/></svg>">
 </head>
 <body>
-<div class="grain" aria-hidden="true"></div>
-
 <header class="hero">
   <div class="hero-top">
     <a class="brand" href="#" aria-label="工具雷达首页">
@@ -51,7 +50,7 @@
         <option value="name">名称</option>
       </select>
       <button id="favOnly" class="chip" type="button" aria-pressed="false">★ 只看收藏 <span id="favCount">0</span></button>
-      <button id="randomBtn" class="chip" type="button" title="在当前筛选里随机抽一个">🎲 抽一个</button>
+      <button id="randomBtn" class="chip" type="button" title="在当前筛选里随机抽一个">随机抽一个</button>
     </div>
   </div>
   <div class="rail" id="rail" role="group" aria-label="工作场景"></div>
