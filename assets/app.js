@@ -114,7 +114,7 @@
     const cells = [
       [D.stats.total, '收录仓库'],
       [D.scenarios.length, '工作场景'],
-      [week, '本周新建'],
+      [week, '本周新星'],
       [active, '近 7 天有提交'],
       [D.stats.curated, '人工策展'],
     ];
@@ -233,7 +233,6 @@
             ${t.lang ? `<span class="lang"><i></i>${esc(t.lang)}</span>` : ''}
             <span>${ago(daysSince(t.pushed))}</span>
           </div>
-          <div class="bar"><i style="width:${w}%"></i></div>
           <div class="row-foot">
             <button class="act${fav ? ' on' : ''}" data-act="fav" aria-pressed="${fav}" title="收藏 (f)">${fav ? '★' : '☆'}</button>
             <button class="act${inCmp ? ' on cmp' : ''}" data-act="cmp" title="加入对比 (c)">${inCmp ? '✓ 对比' : '⧉ 对比'}</button>

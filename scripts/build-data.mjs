@@ -56,12 +56,19 @@ if (!scenarios.some((s) => s.id === 'misc')) {
     accent: '#8b949e',
   });
 }
+// GitHub 描述里常见 :cherry_blossom: 这类 emoji 短码，中文页面里是噪声，去掉
+const cleanDesc = (s) =>
+  (s || '')
+    .replace(/:[a-z0-9_+-]+:/gi, ' ')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+
 const toTool = (r, extra) => ({
   repo: r.full_name,
   name: r.name,
   owner: r.owner,
   url: r.html_url,
-  desc: r.description || '',
+  desc: cleanDesc(r.description),
   stars: r.stars,
   forks: r.forks,
   lang: r.language,
