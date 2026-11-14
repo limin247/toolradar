@@ -1,0 +1,94 @@
+{
+  "fetchedAt": "2026-11-14T11:26:48.255Z",
+  "queries": {
+    "hall-of-fame": {
+      "q": "stars:>60000",
+      "returned": 100,
+      "total": 402
+    },
+    "new-week": {
+      "q": "created:>2026-11-07 stars:>10",
+      "returned": 100,
+      "total": 2857
+    },
+    "new-month": {
+      "q": "created:>2026-10-15 stars:>80",
+      "returned": 100,
+      "total": 4211
+    },
+    "cli": {
+      "q": "topic:cli stars:>1500",
+      "returned": 100,
+      "total": 747
+    },
+    "developer-tools": {
+      "q": "topic:developer-tools stars:>2000",
+      "returned": 100,
+      "total": 296
+    },
+    "productivity": {
+      "q": "topic:productivity stars:>1200",
+      "returned": 100,
+      "total": 205
+    },
+    "llm": {
+      "q": "topic:llm stars:>2500",
+      "returned": 100,
+      "total": 792
+    },
+    "devops": {
+      "q": "topic:devops stars:>2000",
+      "returned": 100,
+      "total": 217
+    },
+    "frontend": {
+      "q": "topic:frontend stars:>2000",
+      "returned": 100,
+      "total": 153
+    },
+    "testing": {
+      "q": "topic:testing stars:>800",
+      "returned": 100,
+      "total": 423
+    },
+    "security": {
+      "q": "topic:security stars:>2500",
+      "returned": 100,
+      "total": 485
+    },
+    "database": {
+      "q": "topic:database stars:>2000",
+      "returned": 100,
+      "total": 378
+    },
+    "self-hosted": {
+      "q": "topic:self-hosted stars:>3000",
+      "returned": 100,
+      "total": 300
+    },
+    "design": {
+      "q": "topic:design stars:>800",
+      "returned": 100,
+      "total": 213
+    },
+    "agents": {
+      "q": "topic:ai-agents stars:>800",
+      "returned": 100,
+      "total": 907
+    },
+    "docs": {
+      "q": "topic:documentation stars:>1000",
+      "returned": 100,
+      "total": 228
+    },
+    "awesome": {
+      "q": "topic:awesome stars:>15000",
+      "returned": 100,
+      "total": 107
+    }
+  },
+  "tokenUsage": "anonymous",
+  "snapshots": [
+    "2026-11-14"
+  ]
+}

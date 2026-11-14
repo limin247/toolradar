@@ -1,0 +1,9 @@
+# 截图与临时文件（验证用，不进仓库）
+.shots/
+*.log
+
+# 依赖与系统文件
+node_modules/
+.DS_Store
+Thumbs.db
+data/_list.txt

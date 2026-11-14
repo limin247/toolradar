@@ -1,0 +1,2400 @@
+{
+ "scenarios": [
+  {
+   "id": "terminal",
+   "name": "终端与效率",
+   "en": "Terminal",
+   "blurb": "先问三个问题：你每天重复敲的命令有多少？有没有一款工具能把它变成一次模糊匹配？它是否尊重你的 .gitignore 和管道？",
+   "accent": "#ffb454"
+  },
+  {
+   "id": "ai-coding",
+   "name": "AI 编程",
+   "en": "AI Coding",
+   "blurb": "先分清你要的是补全、是能自己跑命令的代理、还是只给代理加记忆/省钱的外挂——三者的选型完全不同。",
+   "accent": "#7dd3fc"
+  },
+  {
+   "id": "devtools",
+   "name": "开发工具箱",
+   "en": "Dev Tools",
+   "blurb": "调接口、造假数据、查脚本、抓页面：这类工具的标准是「装完三分钟内能用上」，别选需要先写配置文件的。",
+   "accent": "#a5b4fc"
+  },
+  {
+   "id": "frontend",
+   "name": "前端与设计",
+   "en": "Frontend & Design",
+   "blurb": "先分清你要「框架」还是「素材」：框架看生态和迁移成本，素材看授权与体积，别把两者混在一个决策里。",
+   "accent": "#f9a8d4"
+  },
+  {
+   "id": "devops",
+   "name": "部署与运维",
+   "en": "DevOps",
+   "blurb": "先问：你是要少写 YAML，还是要少背锅？前者选 PaaS，后者选可观测性与密钥管理。",
+   "accent": "#86efac"
+  },
+  {
+   "id": "dataai",
+   "name": "AI 与数据",
+   "en": "AI & Data",
+   "blurb": "先确认三件事：模型跑在哪、数据出不出内网、答案要不要可追溯。这三条决定你选本地推理还是托管 API。",
+   "accent": "#67e8f9"
+  },
+  {
+   "id": "database",
+   "name": "数据存储",
+   "en": "Database",
+   "blurb": "先看你是「存业务数据」还是「查分析报表」：OLTP 和 OLAP 的选型几乎不重叠。",
+   "accent": "#fcd34d"
+  },
+  {
+   "id": "security",
+   "name": "安全与隐私",
+   "en": "Security",
+   "blurb": "先分清进攻面和防守面：扫自己的代码用扫描器，理解流量用抓包代理，别拿渗透工具当日常检查。",
+   "accent": "#fca5a5"
+  },
+  {
+   "id": "testing",
+   "name": "测试与质量",
+   "en": "Testing",
+   "blurb": "先问：你要测「行为」还是测「实现」？测行为选 E2E 和组件测试，测实现只会让你每次重构都改测试。",
+   "accent": "#c4b5fd"
+  },
+  {
+   "id": "docs",
+   "name": "文档与知识",
+   "en": "Docs & Knowledge",
+   "blurb": "先问：这份内容给团队看还是给自己看？给团队就要版本化和评审，给自己只要快和离线。",
+   "accent": "#fde68a"
+  },
+  {
+   "id": "productivity",
+   "name": "效率与个人",
+   "en": "Productivity",
+   "blurb": "这类工具的坑是「装完就忘了用」。只选能嵌进你现有流程的那一个，别同时开三个待办。",
+   "accent": "#fdba74"
+  },
+  {
+   "id": "selfhosted",
+   "name": "自建与个人云",
+   "en": "Self-hosted",
+   "blurb": "先算清成本：自建省的是订阅费，花的是运维时间。优先选「一个 docker compose 就能起」的。",
+   "accent": "#5eead4"
+  },
+  {
+   "id": "learn",
+   "name": "学习与面试",
+   "en": "Learning",
+   "blurb": "别收藏，直接做题。选型标准只有一条：它有没有让你动手的部分。纯清单类的价值在于索引，不在于读完。",
+   "accent": "#93c5fd"
+  },
+  {
+   "id": "collections",
+   "name": "精选合集",
+   "en": "Collections",
+   "blurb": "合集是索引不是内容。挑一个就够，剩下的时间用来读里面的项目。",
+   "accent": "#e5e7eb"
+  }
+ ],
+ "tools": [
+  {
+   "r": "junegunn/fzf",
+   "s": "terminal",
+   "z": "模糊搜索一切：文件、命令历史、进程，还能给任何管道做选择器",
+   "t": [
+    "模糊搜索",
+    "管道"
+   ],
+   "f": "先装它，再用它当 ripgrep / git 的前端"
+  },
+  {
+   "r": "BurntSushi/ripgrep",
+   "s": "terminal",
+   "z": "比 grep 快一个数量级的递归搜索，默认尊重 .gitignore",
+   "t": [
+    "搜索",
+    "Rust"
+   ],
+   "f": "和 fzf 组合是最省时间的搜索方式"
+  },
+  {
+   "r": "sharkdp/fd",
+   "s": "terminal",
+   "z": "find 的现代替代：语法短、默认并行、彩色输出",
+   "t": [
+    "查找",
+    "Rust"
+   ],
+   "f": "记不住 find 那一堆参数就用它"
+  },
+  {
+   "r": "sharkdp/bat",
+   "s": "terminal",
+   "z": "带语法高亮和 Git 差异标记的 cat",
+   "t": [
+    "阅读",
+    "高亮"
+   ]
+  },
+  {
+   "r": "ajeetdsouza/zoxide",
+   "s": "terminal",
+   "z": "按访问频率跳目录，比 cd 更懂你要去哪",
+   "t": [
+    "导航",
+    "shell"
+   ]
+  },
+  {
+   "r": "jesseduffield/lazygit",
+   "s": "terminal",
+   "z": "终端里的 Git 界面：暂存、变基、解冲突都在一屏",
+   "t": [
+    "Git",
+    "TUI"
+   ],
+   "f": "不想背 rebase 参数就开它"
+  },
+  {
+   "r": "sxyazi/yazi",
+   "s": "terminal",
+   "z": "Rust 写的终端文件管理器，异步 IO 不卡",
+   "t": [
+    "文件管理",
+    "TUI"
+   ]
+  },
+  {
+   "r": "tldr-pages/tldr",
+   "s": "terminal",
+   "z": "命令示例速查，比 man 好读十倍",
+   "t": [
+    "速查",
+    "示例"
+   ]
+  },
+  {
+   "r": "charmbracelet/glow",
+   "s": "terminal",
+   "z": "在终端里渲染 Markdown，README 不用开浏览器",
+   "t": [
+    "Markdown",
+    "阅读"
+   ]
+  },
+  {
+   "r": "wagoodman/dive",
+   "s": "terminal",
+   "z": "逐层拆解 Docker 镜像，找出体积到底被谁吃了",
+   "t": [
+    "Docker",
+    "镜像"
+   ]
+  },
+  {
+   "r": "sharkdp/hyperfine",
+   "s": "terminal",
+   "z": "命令行基准测试，跑 N 次给统计而不是拍脑袋",
+   "t": [
+    "性能",
+    "测量"
+   ]
+  },
+  {
+   "r": "asciinema/asciinema",
+   "s": "terminal",
+   "z": "把终端会话录成可回放的文本动画，写教程神器",
+   "t": [
+    "录屏",
+    "教程"
+   ]
+  },
+  {
+   "r": "denisidoro/navi",
+   "s": "terminal",
+   "z": "交互式速查表，从你的 cheatsheet 里挑参数再执行",
+   "t": [
+    "速查",
+    "交互"
+   ]
+  },
+  {
+   "r": "antonmedv/fx",
+   "s": "terminal",
+   "z": "终端 JSON 浏览器，键盘上下钻取",
+   "t": [
+    "JSON",
+    "浏览"
+   ]
+  },
+  {
+   "r": "mikefarah/yq",
+   "s": "terminal",
+   "z": "YAML / JSON / TOML 的 jq，改配置文件不用手抖",
+   "t": [
+    "YAML",
+    "jq"
+   ]
+  },
+  {
+   "r": "gpakosz/.tmux",
+   "s": "terminal",
+   "z": "开箱即用的 tmux 配置：状态栏、主题、powerline 全齐",
+   "t": [
+    "tmux",
+    "配置"
+   ]
+  },
+  {
+   "r": "XAMPPRocky/tokei",
+   "s": "terminal",
+   "z": "按语言统计代码行数，给项目做个体检",
+   "t": [
+    "统计",
+    "代码"
+   ]
+  },
+  {
+   "r": "muesli/duf",
+   "s": "terminal",
+   "z": "df 的美化版，磁盘占用一眼看清",
+   "t": [
+    "磁盘",
+    "监控"
+   ]
+  },
+  {
+   "r": "pranshuparmar/witr",
+   "s": "terminal",
+   "z": "追查这个进程、端口、容器到底是哪个东西启动的",
+   "t": [
+    "排障",
+    "进程"
+   ]
+  },
+  {
+   "r": "cli/cli",
+   "s": "terminal",
+   "z": "GitHub 官方 CLI：把 issue、PR、Actions 搬回终端",
+   "t": [
+    "GitHub",
+    "CLI"
+   ]
+  },
+  {
+   "r": "google/zx",
+   "s": "terminal",
+   "z": "用 JavaScript 写 shell 脚本，自带 await 和管道",
+   "t": [
+    "脚本",
+    "JS"
+   ]
+  },
+  {
+   "r": "wavetermdev/waveterm",
+   "s": "terminal",
+   "z": "AI 集成的块状终端，命令输出可以像笔记本一样排列",
+   "t": [
+    "终端",
+    "工作流"
+   ]
+  },
+  {
+   "r": "yt-dlp/yt-dlp",
+   "s": "terminal",
+   "z": "功能最全的命令行音视频下载器",
+   "t": [
+    "下载",
+    "音视频"
+   ]
+  },
+  {
+   "r": "google-gemini/gemini-cli",
+   "s": "ai-coding",
+   "z": "把 Gemini 塞进终端，开源可改的 AI 终端代理",
+   "t": [
+    "终端代理",
+    "Google"
+   ],
+   "f": "想要能自己改源码的代理就看这类"
+  },
+  {
+   "r": "OpenHands/OpenHands",
+   "s": "ai-coding",
+   "z": "能自己写代码、跑命令、开浏览器的 AI 开发代理",
+   "t": [
+    "代理",
+    "自动化"
+   ]
+  },
+  {
+   "r": "Aider-AI/aider",
+   "s": "ai-coding",
+   "z": "终端里的 AI 结对编程，直接改仓库文件并提交",
+   "t": [
+    "结对编程",
+    "Git"
+   ]
+  },
+  {
+   "r": "continuedev/continue",
+   "s": "ai-coding",
+   "z": "编辑器里的开源编码代理，可以接任意模型",
+   "t": [
+    "IDE 插件",
+    "多模型"
+   ]
+  },
+  {
+   "r": "QwenLM/qwen-code",
+   "s": "ai-coding",
+   "z": "住在终端里的开源 Qwen 编码代理",
+   "t": [
+    "终端代理",
+    "Qwen"
+   ]
+  },
+  {
+   "r": "codewhale-hq/Codewhale",
+   "s": "ai-coding",
+   "z": "Rust 写的终端编码代理，能把一个任务拆给多个代理",
+   "t": [
+    "Rust",
+    "多代理"
+   ]
+  },
+  {
+   "r": "can1357/oh-my-pi",
+   "s": "ai-coding",
+   "z": "把 IDE 接进代理内部的编码工具体系",
+   "t": [
+    "IDE",
+    "代理"
+   ]
+  },
+  {
+   "r": "code-yeongyu/oh-my-openagent",
+   "s": "ai-coding",
+   "z": "一句关键词触发多代理图执行",
+   "t": [
+    "编排",
+    "代理"
+   ]
+  },
+  {
+   "r": "1jehuang/jcode",
+   "s": "ai-coding",
+   "z": "为重度多代理开发流准备的高性能 harness",
+   "t": [
+    "harness",
+    "性能"
+   ]
+  },
+  {
+   "r": "thedotmack/claude-mem",
+   "s": "ai-coding",
+   "z": "给代理做跨会话记忆，把上下文自动存下来",
+   "t": [
+    "记忆",
+    "上下文"
+   ],
+   "f": "每次都要重新解释项目背景的话，先解决这个"
+  },
+  {
+   "r": "rtk-ai/rtk",
+   "s": "ai-coding",
+   "z": "CLI 代理层，宣称把常见开发命令的 token 消耗砍掉 60-90%",
+   "t": [
+    "省钱",
+    "代理"
+   ]
+  },
+  {
+   "r": "JuliusBrussee/caveman",
+   "s": "ai-coding",
+   "z": "让代理少说废话、少烧 token 的流行技巧与代理",
+   "t": [
+    "省钱",
+    "输出"
+   ]
+  },
+  {
+   "r": "headroomlabs-ai/headroom",
+   "s": "ai-coding",
+   "z": "在工具输出、日志、RAG 块进模型前先压缩",
+   "t": [
+    "上下文",
+    "压缩"
+   ]
+  },
+  {
+   "r": "Graphify-Labs/graphify",
+   "s": "ai-coding",
+   "z": "把代码库连同文档、SQL 结构、PDF 变成可查询的知识图谱",
+   "t": [
+    "知识图谱",
+    "上下文"
+   ]
+  },
+  {
+   "r": "tt-a1i/archify",
+   "s": "ai-coding",
+   "z": "把想法、计划或代码库直接画成交互式架构图",
+   "t": [
+    "架构图",
+    "可视化"
+   ]
+  },
+  {
+   "r": "mattpocock/skills",
+   "s": "ai-coding",
+   "z": "作者 .agents 目录里那套面向真工程师的技能集",
+   "t": [
+    "skills",
+    "工程"
+   ]
+  },
+  {
+   "r": "obra/superpowers",
+   "s": "ai-coding",
+   "z": "代理技能框架 + 一套能跑通的开发方法论",
+   "t": [
+    "skills",
+    "方法论"
+   ]
+  },
+  {
+   "r": "DietrichGebert/ponytail",
+   "s": "ai-coding",
+   "z": "让代理像最懒的资深工程师那样思考：能不写就不写",
+   "t": [
+    "技能",
+    "克制"
+   ]
+  },
+  {
+   "r": "ayghri/i-have-adhd",
+   "s": "ai-coding",
+   "z": "治代理把答案埋在长篇里的毛病，输出直接给结论",
+   "t": [
+    "输出",
+    "技能"
+   ]
+  },
+  {
+   "r": "davila7/claude-code-templates",
+   "s": "ai-coding",
+   "z": "Claude Code 组件注册表与 CLI：代理、命令、技能、钩子、MCP",
+   "t": [
+    "Claude",
+    "模板"
+   ]
+  },
+  {
+   "r": "stablyai/orca",
+   "s": "ai-coding",
+   "z": "同时开一队编码代理（Claude Code、Codex 等）跑任务",
+   "t": [
+    "多代理",
+    "队列"
+   ]
+  },
+  {
+   "r": "herdrdev/herdr",
+   "s": "ai-coding",
+   "z": "编码代理运行所依赖的运行时层",
+   "t": [
+    "运行时",
+    "代理"
+   ]
+  },
+  {
+   "r": "deepseek-ai/dsh-superagent-prototype",
+   "s": "ai-coding",
+   "z": "迈向更自主的代理系统原型",
+   "t": [
+    "代理",
+    "原型"
+   ]
+  },
+  {
+   "r": "paperclipai/paperclip",
+   "s": "ai-coding",
+   "z": "在工作里统一管理一堆代理的开源面板",
+   "t": [
+    "管理",
+    "代理"
+   ]
+  },
+  {
+   "r": "hoppscotch/hoppscotch",
+   "s": "devtools",
+   "z": "开源 API 开发全链路：调试、Mock、测试、离线可用",
+   "t": [
+    "API",
+    "客户端"
+   ],
+   "f": "团队不想再买 Postman 席位时看它"
+  },
+  {
+   "r": "usebruno/bruno",
+   "s": "devtools",
+   "z": "轻量 API 客户端，请求存成纯文本文件、可以进 Git",
+   "t": [
+    "API",
+    "Git"
+   ]
+  },
+  {
+   "r": "Orange-OpenSource/hurl",
+   "s": "devtools",
+   "z": "用纯文本写 HTTP 请求，顺便当集成测试跑",
+   "t": [
+    "HTTP",
+    "测试"
+   ]
+  },
+  {
+   "r": "httpie/cli",
+   "s": "devtools",
+   "z": "curl 的人性化替代，JSON 彩色、语法像说人话",
+   "t": [
+    "HTTP",
+    "CLI"
+   ]
+  },
+  {
+   "r": "CorentinTh/it-tools",
+   "s": "devtools",
+   "z": "几百个开发者小工具的在线合集，可自建",
+   "t": [
+    "在线工具",
+    "合集"
+   ]
+  },
+  {
+   "r": "koalaman/shellcheck",
+   "s": "devtools",
+   "z": "shell 脚本静态检查，抓出那些只会在生产炸的写法",
+   "t": [
+    "Lint",
+    "shell"
+   ],
+   "f": "CI 里加一行就能挡掉大量脚本事故"
+  },
+  {
+   "r": "puppeteer/puppeteer",
+   "s": "devtools",
+   "z": "用代码驱动 Chrome / Firefox，抓页面、自动化、出 PDF",
+   "t": [
+    "浏览器",
+    "自动化"
+   ]
+  },
+  {
+   "r": "typicode/json-server",
+   "s": "devtools",
+   "z": "30 秒造一个假 REST API，前端不用等后端",
+   "t": [
+    "Mock",
+    "API"
+   ]
+  },
+  {
+   "r": "l0ng-ai/openidea",
+   "s": "devtools",
+   "z": "用 Rust 重建的 IDEA 风格 IDE：快捷键、工具窗、搜索都沿用",
+   "t": [
+    "IDE",
+    "Rust"
+   ]
+  },
+  {
+   "r": "NaiboWang/EasySpider",
+   "s": "devtools",
+   "z": "可视化无代码爬虫，画流程图就能采集",
+   "t": [
+    "爬虫",
+    "无代码"
+   ]
+  },
+  {
+   "r": "withfig/autocomplete",
+   "s": "devtools",
+   "z": "给现有终端加 IDE 式命令补全",
+   "t": [
+    "补全",
+    "shell"
+   ]
+  },
+  {
+   "r": "vitejs/vite",
+   "s": "frontend",
+   "z": "下一代前端构建工具，冷启动和热更新都快",
+   "t": [
+    "构建",
+    "HMR"
+   ]
+  },
+  {
+   "r": "vuejs/vue",
+   "s": "frontend",
+   "z": "Vue 2 仓库（Vue 3 在 vuejs/core），中文生态的起点",
+   "t": [
+    "框架",
+    "Vue"
+   ]
+  },
+  {
+   "r": "expo/expo",
+   "s": "frontend",
+   "z": "一套代码跑 iOS / Android / Web 的 React Native 框架",
+   "t": [
+    "跨端",
+    "React Native"
+   ]
+  },
+  {
+   "r": "ionic-team/ionic-framework",
+   "s": "frontend",
+   "z": "跨平台 UI 工具包，输出接近原生的移动界面",
+   "t": [
+    "UI",
+    "跨端"
+   ]
+  },
+  {
+   "r": "onlook-dev/onlook",
+   "s": "frontend",
+   "z": "AI 优先的可视化设计工具，改的就是真实 React 代码",
+   "t": [
+    "可视化",
+    "AI"
+   ]
+  },
+  {
+   "r": "baidu/amis",
+   "s": "frontend",
+   "z": "用 JSON 配置生成页面的低代码框架，适合中后台",
+   "t": [
+    "低代码",
+    "中后台"
+   ]
+  },
+  {
+   "r": "vueComponent/ant-design-vue",
+   "s": "frontend",
+   "z": "Ant Design 的 Vue 企业级组件库",
+   "t": [
+    "组件库",
+    "Vue"
+   ]
+  },
+  {
+   "r": "tldraw/tldraw",
+   "s": "frontend",
+   "z": "无限画布 SDK，用 React 就能做出白板类应用",
+   "t": [
+    "画布",
+    "SDK"
+   ]
+  },
+  {
+   "r": "excalidraw/excalidraw",
+   "s": "frontend",
+   "z": "手绘风白板，画架构图和草图最快的那条路",
+   "t": [
+    "白板",
+    "图表"
+   ],
+   "f": "要给人看懂的图，别用重型绘图工具"
+  },
+  {
+   "r": "penpot/penpot",
+   "s": "frontend",
+   "z": "开源设计平台，面向需要协作的产品团队",
+   "t": [
+    "设计",
+    "协作"
+   ],
+   "f": "团队不想买 Figma 席位时的首选"
+  },
+  {
+   "r": "jgthms/bulma",
+   "s": "frontend",
+   "z": "基于 Flexbox 的现代 CSS 框架，不用写 JS",
+   "t": [
+    "CSS",
+    "框架"
+   ]
+  },
+  {
+   "r": "processing/p5.js",
+   "s": "frontend",
+   "z": "面向艺术家和设计师的创意编程平台",
+   "t": [
+    "创意编程",
+    "可视化"
+   ]
+  },
+  {
+   "r": "simple-icons/simple-icons",
+   "s": "frontend",
+   "z": "各大品牌的 SVG 图标集合，商用友好",
+   "t": [
+    "图标",
+    "SVG"
+   ]
+  },
+  {
+   "r": "mojs/mojs",
+   "s": "frontend",
+   "z": "Web 动效工具带，做那种丝滑的跳动动画",
+   "t": [
+    "动效",
+    "JS"
+   ]
+  },
+  {
+   "r": "GraphiteEditor/Graphite",
+   "s": "frontend",
+   "z": "社区共建的 2D 内容创作应用：图形设计、动效、艺术",
+   "t": [
+    "2D",
+    "设计"
+   ]
+  },
+  {
+   "r": "heydamir/unslop",
+   "s": "frontend",
+   "z": "把「一眼 AI 味」的界面改造成真正设计过的样子",
+   "t": [
+    "设计",
+    "技能"
+   ]
+  },
+  {
+   "r": "alchaincyf/huashu-design",
+   "s": "frontend",
+   "z": "在代理里说一句话，拿回可交付的设计稿 / 原型 / PPTX",
+   "t": [
+    "设计",
+    "代理"
+   ]
+  },
+  {
+   "r": "pbakaus/impeccable",
+   "s": "frontend",
+   "z": "给编码代理的「设计词汇表」，用更狠的词指挥它调样式",
+   "t": [
+    "设计",
+    "技能"
+   ]
+  },
+  {
+   "r": "nektos/act",
+   "s": "devops",
+   "z": "在本机跑 GitHub Actions，不用反复推代码验证流水线",
+   "t": [
+    "CI",
+    "本地"
+   ],
+   "f": "改 workflow 调到崩溃的人必备"
+  },
+  {
+   "r": "Dokploy/dokploy",
+   "s": "devops",
+   "z": "开源的 Vercel / Netlify / Heroku 替代，自托管部署平台",
+   "t": [
+    "PaaS",
+    "部署"
+   ]
+  },
+  {
+   "r": "coollabsio/coolify",
+   "s": "devops",
+   "z": "自托管 PaaS：应用、数据库、备份都能从一个面板管",
+   "t": [
+    "PaaS",
+    "docker"
+   ]
+  },
+  {
+   "r": "go-gitea/gitea",
+   "s": "devops",
+   "z": "自建 Git 服务：仓库、Issue、CI、包管理一体",
+   "t": [
+    "Git",
+    "自建"
+   ]
+  },
+  {
+   "r": "getsentry/sentry",
+   "s": "devops",
+   "z": "开发者优先的错误追踪与性能监控",
+   "t": [
+    "监控",
+    "错误"
+   ]
+  },
+  {
+   "r": "Kong/kong",
+   "s": "devops",
+   "z": "API 与 AI 网关，管住南北向流量",
+   "t": [
+    "网关",
+    "API"
+   ]
+  },
+  {
+   "r": "dokku/dokku",
+   "s": "devops",
+   "z": "docker 驱动的迷你 PaaS，一台机器就是一个 Heroku",
+   "t": [
+    "PaaS",
+    "轻量"
+   ]
+  },
+  {
+   "r": "kestra-io/kestra",
+   "s": "devops",
+   "z": "跨系统的编排控制面，把工作流当代码管",
+   "t": [
+    "编排",
+    "工作流"
+   ]
+  },
+  {
+   "r": "argoproj/argo-cd",
+   "s": "devops",
+   "z": "Kubernetes 的声明式持续部署",
+   "t": [
+    "K8s",
+    "CD"
+   ]
+  },
+  {
+   "r": "containrrr/watchtower",
+   "s": "devops",
+   "z": "自动更新 Docker 容器的基础镜像",
+   "t": [
+    "docker",
+    "自动"
+   ]
+  },
+  {
+   "r": "getsops/sops",
+   "s": "devops",
+   "z": "密钥文件加密，密文可以安心进 Git",
+   "t": [
+    "密钥",
+    "加密"
+   ]
+  },
+  {
+   "r": "louislam/uptime-kuma",
+   "s": "devops",
+   "z": "好看好用的自建监控与告警面板",
+   "t": [
+    "监控",
+    "告警"
+   ]
+  },
+  {
+   "r": "netdata/netdata",
+   "s": "devops",
+   "z": "开箱即用的全栈可观测性，装完就有图",
+   "t": [
+    "可观测",
+    "指标"
+   ]
+  },
+  {
+   "r": "localstack/localstack",
+   "s": "devops",
+   "z": "本机跑一套功能完整的 AWS，开发和测试不用连云",
+   "t": [
+    "AWS",
+    "本地"
+   ]
+  },
+  {
+   "r": "floci-io/floci",
+   "s": "devops",
+   "z": "轻量免费的 AWS 本地模拟器",
+   "t": [
+    "AWS",
+    "模拟"
+   ]
+  },
+  {
+   "r": "caddyserver/caddy",
+   "s": "devops",
+   "z": "自动 HTTPS 的 Web 服务器，配置短到不像话",
+   "t": [
+    "服务器",
+    "HTTPS"
+   ]
+  },
+  {
+   "r": "jenkinsci/jenkins",
+   "s": "devops",
+   "z": "老牌自动化服务器，插件生态大到没边",
+   "t": [
+    "CI",
+    "老牌"
+   ]
+  },
+  {
+   "r": "serveroshq/panel",
+   "s": "devops",
+   "z": "把你已有的 Linux 服务器集中到一个面板里管",
+   "t": [
+    "面板",
+    "服务器"
+   ]
+  },
+  {
+   "r": "ollama/ollama",
+   "s": "dataai",
+   "z": "一条命令在本机跑开源大模型",
+   "t": [
+    "本地推理",
+    "模型"
+   ],
+   "f": "先决定数据能不能出网，再决定用不用它"
+  },
+  {
+   "r": "open-webui/open-webui",
+   "s": "dataai",
+   "z": "自建的类 ChatGPT 界面，接 Ollama 或任意 OpenAI 兼容接口",
+   "t": [
+    "前端",
+    "自建"
+   ]
+  },
+  {
+   "r": "langgenius/dify",
+   "s": "dataai",
+   "z": "可视化搭代理工作流和 RAG 管道，模型和工具都能接",
+   "t": [
+    "工作流",
+    "RAG"
+   ]
+  },
+  {
+   "r": "huggingface/transformers",
+   "s": "dataai",
+   "z": "模型定义框架，几乎所有的开源模型都从这里开始",
+   "t": [
+    "模型",
+    "框架"
+   ]
+  },
+  {
+   "r": "vllm-project/vllm",
+   "s": "dataai",
+   "z": "高吞吐、省显存的 LLM 推理服务引擎",
+   "t": [
+    "推理",
+    "服务"
+   ]
+  },
+  {
+   "r": "langchain-ai/langchain",
+   "s": "dataai",
+   "z": "代理工程平台：链、工具、检索、记忆都在这套抽象里",
+   "t": [
+    "编排",
+    "框架"
+   ]
+  },
+  {
+   "r": "infiniflow/ragflow",
+   "s": "dataai",
+   "z": "代理原生的 RAG 检索引擎，把文档变成可查的底座",
+   "t": [
+    "RAG",
+    "检索"
+   ]
+  },
+  {
+   "r": "firecrawl/firecrawl",
+   "s": "dataai",
+   "z": "给代理用的网页抓取与搜索层，输出直接能喂模型",
+   "t": [
+    "抓取",
+    "代理"
+   ]
+  },
+  {
+   "r": "unclecode/crawl4ai",
+   "s": "dataai",
+   "z": "面向 AI 的爬虫，抓完就能进 RAG",
+   "t": [
+    "爬虫",
+    "RAG"
+   ]
+  },
+  {
+   "r": "browser-use/browser-use",
+   "s": "dataai",
+   "z": "让 AI 代理真正操作浏览器完成任务",
+   "t": [
+    "浏览器",
+    "代理"
+   ]
+  },
+  {
+   "r": "unslothai/unsloth",
+   "s": "dataai",
+   "z": "本地运行和训练 LLM、扩散模型的界面，支持 GGUF 与 MLX",
+   "t": [
+    "训练",
+    "本地"
+   ]
+  },
+  {
+   "r": "mem0ai/mem0",
+   "s": "dataai",
+   "z": "给代理即插即用的记忆层",
+   "t": [
+    "记忆",
+    "基础设施"
+   ]
+  },
+  {
+   "r": "crewAIInc/crewAI",
+   "s": "dataai",
+   "z": "按角色编排多代理协作的框架",
+   "t": [
+    "多代理",
+    "框架"
+   ]
+  },
+  {
+   "r": "bytedance/deer-flow",
+   "s": "dataai",
+   "z": "长程 SuperAgent harness：会研究、会写代码、会产出",
+   "t": [
+    "harness",
+    "长任务"
+   ]
+  },
+  {
+   "r": "janhq/jan",
+   "s": "dataai",
+   "z": "100% 离线运行的 ChatGPT 替代，模型和数据都在本机",
+   "t": [
+    "离线",
+    "客户端"
+   ]
+  },
+  {
+   "r": "Mintplex-Labs/anything-llm",
+   "s": "dataai",
+   "z": "私有化 AI 工作台：文档、代理、向量库一栈到底",
+   "t": [
+    "私有化",
+    "工作台"
+   ]
+  },
+  {
+   "r": "pathwaycom/serviette",
+   "s": "dataai",
+   "z": "无代码 RAG 服务器，答案跟着文档更新走",
+   "t": [
+    "RAG",
+    "无代码"
+   ]
+  },
+  {
+   "r": "QuantumNous/new-api",
+   "s": "dataai",
+   "z": "自建 LLM 网关，统一 OpenAI / Claude / Gemini 兼容接口",
+   "t": [
+    "网关",
+    "多模型"
+   ]
+  },
+  {
+   "r": "langfuse/langfuse",
+   "s": "dataai",
+   "z": "AI 工程平台：网关、代理可观测性、评估一把抓",
+   "t": [
+    "可观测",
+    "评估"
+   ]
+  },
+  {
+   "r": "streamlit/streamlit",
+   "s": "dataai",
+   "z": "用 Python 写数据应用和仪表盘，不碰前端",
+   "t": [
+    "数据应用",
+    "Python"
+   ]
+  },
+  {
+   "r": "plotly/dash",
+   "s": "dataai",
+   "z": "Python 数据应用框架，不需要写 JavaScript",
+   "t": [
+    "仪表盘",
+    "Python"
+   ]
+  },
+  {
+   "r": "deepseek-ai/DeepInfer",
+   "s": "dataai",
+   "z": "DeepSeek 模型的高性能大规模推理框架",
+   "t": [
+    "推理",
+    "DeepSeek"
+   ]
+  },
+  {
+   "r": "cheaper-inference/OmniRoute",
+   "s": "dataai",
+   "z": "一个端点接入几百家模型供应商的免费 MIT 网关",
+   "t": [
+    "网关",
+    "多供应商"
+   ]
+  },
+  {
+   "r": "xerj-org/xerj",
+   "s": "dataai",
+   "z": "一个 Rust 二进制，给代理索引代码、文档、日志并提供 MCP",
+   "t": [
+    "检索",
+    "MCP"
+   ]
+  },
+  {
+   "r": "supabase/supabase",
+   "s": "database",
+   "z": "Postgres 全家桶：数据库、认证、存储、实时订阅",
+   "t": [
+    "Postgres",
+    "BaaS"
+   ],
+   "f": "想要「一个后端搞定」，先看它而不是自拼"
+  },
+  {
+   "r": "redis/redis",
+   "s": "database",
+   "z": "实时数据的内存首选：缓存、队列、计数器",
+   "t": [
+    "缓存",
+    "内存"
+   ]
+  },
+  {
+   "r": "meilisearch/meilisearch",
+   "s": "database",
+   "z": "开箱即用的搜索 API，容错和混合检索都自带",
+   "t": [
+    "搜索",
+    "Rust"
+   ]
+  },
+  {
+   "r": "duckdb/duckdb",
+   "s": "database",
+   "z": "嵌入式分析数据库，本地就能跑 OLAP",
+   "t": [
+    "OLAP",
+    "嵌入式"
+   ],
+   "f": "拿 CSV / Parquet 做分析，比开数仓快得多"
+  },
+  {
+   "r": "ClickHouse/ClickHouse",
+   "s": "database",
+   "z": "实时分析数据库，海量明细查询也不虚",
+   "t": [
+    "OLAP",
+    "实时"
+   ]
+  },
+  {
+   "r": "dbeaver/dbeaver",
+   "s": "database",
+   "z": "通用数据库客户端，几乎所有数据库都能连",
+   "t": [
+    "客户端",
+    "SQL"
+   ]
+  },
+  {
+   "r": "metabase/metabase",
+   "s": "database",
+   "z": "人人能上手的开源 BI 与内嵌分析",
+   "t": [
+    "BI",
+    "报表"
+   ]
+  },
+  {
+   "r": "prisma/orm",
+   "s": "database",
+   "z": "TypeScript ORM，用可读的类型化查询代替裸 SQL",
+   "t": [
+    "ORM",
+    "TypeScript"
+   ]
+  },
+  {
+   "r": "typeorm/typeorm",
+   "s": "database",
+   "z": "Node 生态的老牌 ORM，支持多种数据库",
+   "t": [
+    "ORM",
+    "Node"
+   ]
+  },
+  {
+   "r": "etcd-io/etcd",
+   "s": "database",
+   "z": "分布式可靠键值存储，集群的关键数据都放这",
+   "t": [
+    "分布式",
+    "KV"
+   ]
+  },
+  {
+   "r": "pingcap/tidb",
+   "s": "database",
+   "z": "分布式 SQL 数据库，ACID 与弹性扩缩一起给",
+   "t": [
+    "分布式",
+    "SQL"
+   ]
+  },
+  {
+   "r": "surrealdb/surrealdb",
+   "s": "database",
+   "z": "文档 + 图一体的可扩展数据库，面向实时 Web",
+   "t": [
+    "图数据库",
+    "文档"
+   ]
+  },
+  {
+   "r": "cockroachdb/cockroach",
+   "s": "database",
+   "z": "云原生分布式 SQL，为高可用设计",
+   "t": [
+    "分布式",
+    "高可用"
+   ]
+  },
+  {
+   "r": "dragonflydb/dragonfly",
+   "s": "database",
+   "z": "Redis / Memcached 的现代替代，同样的协议更高的吞吐",
+   "t": [
+    "缓存",
+    "替代"
+   ]
+  },
+  {
+   "r": "influxdata/influxdb",
+   "s": "database",
+   "z": "面向指标、事件和实时分析的时序数据库",
+   "t": [
+    "时序",
+    "监控"
+   ]
+  },
+  {
+   "r": "drawdb-io/drawdb",
+   "s": "database",
+   "z": "在线画数据库关系图，顺手生成 SQL",
+   "t": [
+    "ER 图",
+    "SQL"
+   ]
+  },
+  {
+   "r": "directus/directus",
+   "s": "database",
+   "z": "把任意数据库变成 headless CMS 和管理后台",
+   "t": [
+    "CMS",
+    "后台"
+   ]
+  },
+  {
+   "r": "t8y2/dbx",
+   "s": "database",
+   "z": "25MB 的跨平台数据库客户端，支持一百多种数据库",
+   "t": [
+    "客户端",
+    "轻量"
+   ]
+  },
+  {
+   "r": "meta/rocksdb",
+   "s": "database",
+   "z": "可嵌入的持久化键值存储引擎，很多数据库的底座",
+   "t": [
+    "存储引擎",
+    "KV"
+   ]
+  },
+  {
+   "r": "aquasecurity/trivy",
+   "s": "security",
+   "z": "扫容器、代码、K8s 配置里的漏洞、密钥和 SBOM",
+   "t": [
+    "扫描",
+    "供应链"
+   ],
+   "f": "最省的接入方式：CI 里一个命令跑完"
+  },
+  {
+   "r": "gitleaks/gitleaks",
+   "s": "security",
+   "z": "在提交里揪出密钥，防止把 token 推到公开仓库",
+   "t": [
+    "密钥",
+    "CI"
+   ]
+  },
+  {
+   "r": "mitmproxy/mitmproxy",
+   "s": "security",
+   "z": "能拦 TLS 的交互式代理，看清 App 和网页到底发了什么",
+   "t": [
+    "抓包",
+    "代理"
+   ]
+  },
+  {
+   "r": "projectdiscovery/nuclei",
+   "s": "security",
+   "z": "模板驱动的漏洞扫描器，社区模板覆盖大量 CVE",
+   "t": [
+    "扫描",
+    "模板"
+   ]
+  },
+  {
+   "r": "lissy93/web-check",
+   "s": "security",
+   "z": "一个网站的全部 OSINT 信息：证书、DNS、栈、泄露",
+   "t": [
+    "OSINT",
+    "侦察"
+   ]
+  },
+  {
+   "r": "keepassxreboot/keepassxc",
+   "s": "security",
+   "z": "跨平台本地密码库，文件在你自己手里",
+   "t": [
+    "密码",
+    "本地"
+   ]
+  },
+  {
+   "r": "Infisical/infisical",
+   "s": "security",
+   "z": "密钥、证书、访问权限统一管理的开源平台",
+   "t": [
+    "密钥",
+    "权限"
+   ]
+  },
+  {
+   "r": "GyulyVGC/sniffnet",
+   "s": "security",
+   "z": "舒服地看本机网络流量，不用背 tcpdump 参数",
+   "t": [
+    "流量",
+    "可视化"
+   ]
+  },
+  {
+   "r": "x64dbg/x64dbg",
+   "s": "security",
+   "z": "Windows 用户态调试器，逆向和恶意样本分析的主力",
+   "t": [
+    "调试器",
+    "逆向"
+   ]
+  },
+  {
+   "r": "usestrix/strix",
+   "s": "security",
+   "z": "开源 AI 渗透测试：自动找漏洞并给出修复",
+   "t": [
+    "AI 渗透",
+    "自动化"
+   ]
+  },
+  {
+   "r": "KeygraphHQ/shannon",
+   "s": "security",
+   "z": "AI 渗透测试员，读源码后打你的 Web 和 API",
+   "t": [
+    "AI 渗透",
+    "API"
+   ]
+  },
+  {
+   "r": "swisskyrepo/PayloadsAllTheThings",
+   "s": "security",
+   "z": "Web 安全的 payload、绕过和利用手法大全",
+   "t": [
+    "payload",
+    "备忘"
+   ]
+  },
+  {
+   "r": "OWASP/CheatSheetSeries",
+   "s": "security",
+   "z": "OWASP 备忘单合集，做安全评审时的对照表",
+   "t": [
+    "OWASP",
+    "规范"
+   ]
+  },
+  {
+   "r": "imthenachoman/How-To-Secure-A-Linux-Server",
+   "s": "security",
+   "z": "把一台 Linux 服务器加固到能上线的实操指南",
+   "t": [
+    "加固",
+    "Linux"
+   ]
+  },
+  {
+   "r": "StevenBlack/hosts",
+   "s": "security",
+   "z": "合并多个优质来源的 hosts，屏蔽广告和恶意域名",
+   "t": [
+    "hosts",
+    "屏蔽"
+   ]
+  },
+  {
+   "r": "trailofbits/algo",
+   "s": "security",
+   "z": "在云上一键搭个人 VPN",
+   "t": [
+    "VPN",
+    "部署"
+   ]
+  },
+  {
+   "r": "sherlock-project/sherlock",
+   "s": "security",
+   "z": "按用户名跨社交网络找人",
+   "t": [
+    "OSINT",
+    "用户名"
+   ]
+  },
+  {
+   "r": "microsoft/playwright",
+   "s": "testing",
+   "z": "跨浏览器端到端测试，自动等待机制让你少写 sleep",
+   "t": [
+    "E2E",
+    "浏览器"
+   ],
+   "f": "新项目别再手搓 Selenium 了"
+  },
+  {
+   "r": "storybookjs/storybook",
+   "s": "testing",
+   "z": "组件工作台：开发、文档、可视化测试一条链",
+   "t": [
+    "组件",
+    "文档"
+   ]
+  },
+  {
+   "r": "jestjs/jest",
+   "s": "testing",
+   "z": "JavaScript 测试的事实标准，配置少、断言顺手",
+   "t": [
+    "单元测试",
+    "JS"
+   ]
+  },
+  {
+   "r": "pytest-dev/pytest",
+   "s": "testing",
+   "z": "Python 测试框架，小项目不啰嗦、大项目撑得住",
+   "t": [
+    "单元测试",
+    "Python"
+   ]
+  },
+  {
+   "r": "promptfoo/promptfoo",
+   "s": "testing",
+   "z": "测 prompt、代理和 RAG，还带红队与漏洞扫描",
+   "t": [
+    "LLM 评估",
+    "红队"
+   ]
+  },
+  {
+   "r": "keploy/keploy",
+   "s": "testing",
+   "z": "录制真实流量，自动生成 API 与集成测试",
+   "t": [
+    "流量回放",
+    "生成"
+   ]
+  },
+  {
+   "r": "testing-library/react-testing-library",
+   "s": "testing",
+   "z": "按用户行为测 React 组件，而不是测内部实现",
+   "t": [
+    "组件测试",
+    "React"
+   ]
+  },
+  {
+   "r": "joke2k/faker",
+   "s": "testing",
+   "z": "生成假数据，测试和演示环境不再靠手编",
+   "t": [
+    "假数据",
+    "Python"
+   ]
+  },
+  {
+   "r": "probelabs/goreplay",
+   "s": "testing",
+   "z": "录制并回放线上 HTTP 流量，压测和回归都能用",
+   "t": [
+    "流量回放",
+    "Go"
+   ]
+  },
+  {
+   "r": "web-infra-dev/midscene",
+   "s": "testing",
+   "z": "用自然语言描述步骤做端到端测试",
+   "t": [
+    "E2E",
+    "自然语言"
+   ]
+  },
+  {
+   "r": "catchorg/Catch2",
+   "s": "testing",
+   "z": "现代 C++ 测试框架，单测、TDD、BDD 都支持",
+   "t": [
+    "C++",
+    "单元测试"
+   ]
+  },
+  {
+   "r": "mochajs/mocha",
+   "s": "testing",
+   "z": "经典可靠的 JS 测试框架，浏览器和 Node 都能跑",
+   "t": [
+    "JS",
+    "经典"
+   ]
+  },
+  {
+   "r": "stretchr/testify",
+   "s": "testing",
+   "z": "Go 的断言与 mock 工具包，和标准库配合得很好",
+   "t": [
+    "Go",
+    "断言"
+   ]
+  },
+  {
+   "r": "avajs/ava",
+   "s": "testing",
+   "z": "并发执行的 Node 测试运行器",
+   "t": [
+    "Node",
+    "并发"
+   ]
+  },
+  {
+   "r": "google/artemis",
+   "s": "testing",
+   "z": "把自然语言指令变成可靠的 Android 自动化操作",
+   "t": [
+    "Android",
+    "自动化"
+   ]
+  },
+  {
+   "r": "mermaid-js/mermaid",
+   "s": "docs",
+   "z": "用文本画流程图、时序图，能进 Git 也能进 PR",
+   "t": [
+    "图表",
+    "文本"
+   ],
+   "f": "图和代码放一个仓库，评审时才看得出差异"
+  },
+  {
+   "r": "meta/docusaurus",
+   "s": "docs",
+   "z": "文档站生成器，版本化、多语言、搜索都有",
+   "t": [
+    "文档站",
+    "React"
+   ]
+  },
+  {
+   "r": "squidfunk/mkdocs-material",
+   "s": "docs",
+   "z": "Material 风格文档站，改配置就能上线",
+   "t": [
+    "文档站",
+    "Markdown"
+   ]
+  },
+  {
+   "r": "docsifyjs/docsify",
+   "s": "docs",
+   "z": "一个 index.html 就是文档站，不用构建",
+   "t": [
+    "文档站",
+    "零构建"
+   ]
+  },
+  {
+   "r": "requarks/wiki",
+   "s": "docs",
+   "z": "下一代开源 Wiki，权限和编辑器都能配",
+   "t": [
+    "Wiki",
+    "协作"
+   ]
+  },
+  {
+   "r": "docmost/docmost",
+   "s": "docs",
+   "z": "开源协作 Wiki 与文档，Confluence 的自建替代",
+   "t": [
+    "Wiki",
+    "协作"
+   ]
+  },
+  {
+   "r": "GitbookIO/gitbook",
+   "s": "docs",
+   "z": "GitBook 文档站的开源前端",
+   "t": [
+    "文档站",
+    "Markdown"
+   ]
+  },
+  {
+   "r": "AppFlowy-IO/AppFlowy",
+   "s": "docs",
+   "z": "AI 协作工作区：项目、Wiki、团队放在一起",
+   "t": [
+    "Notion 替代",
+    "协作"
+   ]
+  },
+  {
+   "r": "siyuan-note/siyuan",
+   "s": "docs",
+   "z": "隐私优先、可自建的知识工作区，人和代理都能用",
+   "t": [
+    "知识库",
+    "自建"
+   ]
+  },
+  {
+   "r": "usememos/memos",
+   "s": "docs",
+   "z": "极简的自建笔记与碎片记录",
+   "t": [
+    "笔记",
+    "极简"
+   ]
+  },
+  {
+   "r": "TriliumNext/Trilium",
+   "s": "docs",
+   "z": "个人知识库，支持层级、关系图与脚本",
+   "t": [
+    "知识库",
+    "本地"
+   ]
+  },
+  {
+   "r": "iamgio/quarkdown",
+   "s": "docs",
+   "z": "Markdown 超集：一篇文章能出论文、PPT、网站和书",
+   "t": [
+    "Markdown",
+    "出版"
+   ]
+  },
+  {
+   "r": "freeCodeCamp/devdocs",
+   "s": "docs",
+   "z": "离线 API 文档浏览器，查标准库不用翻网页",
+   "t": [
+    "API 文档",
+    "离线"
+   ]
+  },
+  {
+   "r": "architecture-decision-record/architecture-decision-record",
+   "s": "docs",
+   "z": "架构决策记录（ADR）的模板与示例",
+   "t": [
+    "ADR",
+    "架构"
+   ]
+  },
+  {
+   "r": "sparanoid/chinese-copywriting-guidelines",
+   "s": "docs",
+   "z": "中文文案排版指北：中英文之间要不要空格这类问题",
+   "t": [
+    "中文排版",
+    "规范"
+   ]
+  },
+  {
+   "r": "nhn/tui.editor",
+   "s": "docs",
+   "z": "Markdown 所见即所得编辑器，支持图表和 UML",
+   "t": [
+    "编辑器",
+    "Markdown"
+   ]
+  },
+  {
+   "r": "super-productivity/super-productivity",
+   "s": "productivity",
+   "z": "待办 + 时间盒 + 时间追踪一体的开源应用",
+   "t": [
+    "待办",
+    "时间盒"
+   ]
+  },
+  {
+   "r": "ActivityWatch/activitywatch",
+   "s": "productivity",
+   "z": "自动记录电脑时间都花在哪，数据留在本地",
+   "t": [
+    "时间追踪",
+    "隐私"
+   ]
+  },
+  {
+   "r": "ShareX/ShareX",
+   "s": "productivity",
+   "z": "Windows 上的截图、录屏、上传全家桶",
+   "t": [
+    "截图",
+    "Windows"
+   ]
+  },
+  {
+   "r": "alyssaxuu/screenity",
+   "s": "productivity",
+   "z": "无时长限制、隐私友好的录屏工具",
+   "t": [
+    "录屏",
+    "隐私"
+   ]
+  },
+  {
+   "r": "omnivore-app/omnivore",
+   "s": "productivity",
+   "z": "开源稍后读：网页、newsletter、PDF 都能存",
+   "t": [
+    "稍后读",
+    "阅读"
+   ]
+  },
+  {
+   "r": "Wox-launcher/Wox",
+   "s": "productivity",
+   "z": "跨平台启动器，键盘唤起一切",
+   "t": [
+    "启动器",
+    "键盘"
+   ]
+  },
+  {
+   "r": "Flow-Launcher/Flow.Launcher",
+   "s": "productivity",
+   "z": "Windows 上的快速文件搜索与启动器，插件生态活跃",
+   "t": [
+    "启动器",
+    "Windows"
+   ]
+  },
+  {
+   "r": "streetwriters/notesnook",
+   "s": "productivity",
+   "z": "端到端加密的笔记应用，Evernote 的开源替代",
+   "t": [
+    "笔记",
+    "加密"
+   ]
+  },
+  {
+   "r": "rowboatlabs/rowboat",
+   "s": "productivity",
+   "z": "把你的代理团队放进一个群聊里协作",
+   "t": [
+    "代理",
+    "协作"
+   ]
+  },
+  {
+   "r": "khoj-ai/khoj",
+   "s": "productivity",
+   "z": "可自建的 AI 第二大脑，从你的文档和网页里找答案",
+   "t": [
+    "知识库",
+    "AI"
+   ]
+  },
+  {
+   "r": "lissy93/dashy",
+   "s": "productivity",
+   "z": "自建个人仪表盘，带状态检查和小组件",
+   "t": [
+    "仪表盘",
+    "自建"
+   ]
+  },
+  {
+   "r": "immich-app/immich",
+   "s": "selfhosted",
+   "z": "高性能自建照片与视频管理，Google Photos 替代",
+   "t": [
+    "相册",
+    "自建"
+   ],
+   "f": "手机自动备份 + 人脸识别的自建方案里最成熟的"
+  },
+  {
+   "r": "Stirling-Tools/Stirling-PDF",
+   "s": "selfhosted",
+   "z": "自建的 PDF 全能工具箱：合并、拆分、OCR、签名",
+   "t": [
+    "PDF",
+    "工具"
+   ]
+  },
+  {
+   "r": "appwrite/appwrite",
+   "s": "selfhosted",
+   "z": "开源自托管后端：认证、数据库、存储、函数",
+   "t": [
+    "BaaS",
+    "自建"
+   ]
+  },
+  {
+   "r": "glanceapp/glance",
+   "s": "selfhosted",
+   "z": "把所有 feed 聚到一个自建面板里",
+   "t": [
+    "聚合",
+    "面板"
+   ]
+  },
+  {
+   "r": "filebrowser/filebrowser",
+   "s": "selfhosted",
+   "z": "把任意目录变成带权限的 Web 文件管理界面",
+   "t": [
+    "文件",
+    "Web"
+   ]
+  },
+  {
+   "r": "dgtlmoon/changedetection.io",
+   "s": "selfhosted",
+   "z": "监测网页变化并提醒，抢票、盯价格、盯公告都能用",
+   "t": [
+    "监测",
+    "提醒"
+   ]
+  },
+  {
+   "r": "gogs/gogs",
+   "s": "selfhosted",
+   "z": "最省事的自建 Git 服务，一个二进制就够",
+   "t": [
+    "Git",
+    "轻量"
+   ]
+  },
+  {
+   "r": "IceWhaleTech/CasaOS",
+   "s": "selfhosted",
+   "z": "把家里的机器变成个人云系统",
+   "t": [
+    "个人云",
+    "NAS"
+   ]
+  },
+  {
+   "r": "photoprism/photoprism",
+   "s": "selfhosted",
+   "z": "带 AI 能力的相册应用，自动整理和检索",
+   "t": [
+    "相册",
+    "AI"
+   ]
+  },
+  {
+   "r": "agentscope-ai/QwenPaw",
+   "s": "selfhosted",
+   "z": "个人 AI 助手，装在自己机器或云上都能跑",
+   "t": [
+    "助手",
+    "自建"
+   ]
+  },
+  {
+   "r": "reactive-resume/reactive-resume",
+   "s": "selfhosted",
+   "z": "隐私优先的简历生成器，数据不出本机",
+   "t": [
+    "简历",
+    "隐私"
+   ]
+  },
+  {
+   "r": "HolyArrs/HolyArrs",
+   "s": "selfhosted",
+   "z": "一个自建应用管你的剧集、电影和音乐",
+   "t": [
+    "媒体库",
+    "自建"
+   ]
+  },
+  {
+   "r": "HKUDS/nanobot",
+   "s": "selfhosted",
+   "z": "轻量的开源个人代理，能自己部署",
+   "t": [
+    "代理",
+    "轻量"
+   ]
+  },
+  {
+   "r": "codecrafters-io/build-your-own-x",
+   "s": "learn",
+   "z": "照着教程手写一遍你天天在用的技术，从 Git 到数据库",
+   "t": [
+    "造轮子",
+    "进阶"
+   ],
+   "f": "面试前最值钱的一类练习"
+  },
+  {
+   "r": "donnemartin/system-design-primer",
+   "s": "learn",
+   "z": "大规模系统设计的学习与面试准备",
+   "t": [
+    "系统设计",
+    "面试"
+   ]
+  },
+  {
+   "r": "nilbuild/developer-roadmap",
+   "s": "learn",
+   "z": "交互式开发者路线图，告诉你每个方向该学什么",
+   "t": [
+    "路线图",
+    "导航"
+   ]
+  },
+  {
+   "r": "jwasham/coding-interview-university",
+   "s": "learn",
+   "z": "一份完整的 CS 自学计划，为进大厂准备",
+   "t": [
+    "面试",
+    "CS 基础"
+   ]
+  },
+  {
+   "r": "EbookFoundation/free-programming-books",
+   "s": "learn",
+   "z": "免费编程书与课程大全，按语言分类",
+   "t": [
+    "书单",
+    "免费"
+   ]
+  },
+  {
+   "r": "practical-tutorials/project-based-learning",
+   "s": "learn",
+   "z": "按项目学编程：从做一个小东西开始",
+   "t": [
+    "项目式",
+    "实战"
+   ]
+  },
+  {
+   "r": "bregman-arie/devops-exercises",
+   "s": "learn",
+   "z": "DevOps 面试题与练习题，覆盖 Linux 到 K8s",
+   "t": [
+    "DevOps",
+    "面试"
+   ]
+  },
+  {
+   "r": "rasbt/LLMs-from-scratch",
+   "s": "learn",
+   "z": "用 PyTorch 一步步实现一个类 ChatGPT 的模型",
+   "t": [
+    "LLM",
+    "从零"
+   ]
+  },
+  {
+   "r": "mlabonne/llm-course",
+   "s": "learn",
+   "z": "进入大模型领域的路线图与 Colab 笔记本",
+   "t": [
+    "LLM",
+    "课程"
+   ]
+  },
+  {
+   "r": "microsoft/ai-agents-for-beginners",
+   "s": "learn",
+   "z": "18 节课带你从零构建 AI 代理",
+   "t": [
+    "代理",
+    "课程"
+   ]
+  },
+  {
+   "r": "datawhalechina/hello-agents",
+   "s": "learn",
+   "z": "《从零开始构建智能体》：中文的代理原理与实践教程",
+   "t": [
+    "代理",
+    "中文教程"
+   ]
+  },
+  {
+   "r": "shareAI-lab/learn-claude-code",
+   "s": "learn",
+   "z": "从 0 到 1 手写一个类 Claude Code 的 agent harness",
+   "t": [
+    "harness",
+    "从零"
+   ]
+  },
+  {
+   "r": "rohitg00/ai-engineering-from-scratch",
+   "s": "learn",
+   "z": "AI 工程从零学：学它、造它、交付它",
+   "t": [
+    "AI 工程",
+    "实战"
+   ]
+  },
+  {
+   "r": "thedaviddias/Front-End-Checklist",
+   "s": "learn",
+   "z": "现代 Web 开发的必备清单，上线前逐条对照",
+   "t": [
+    "清单",
+    "前端"
+   ]
+  },
+  {
+   "r": "Asabeneh/30-Days-Of-Python",
+   "s": "learn",
+   "z": "30 天 Python 挑战，按天推进的入门教程",
+   "t": [
+    "Python",
+    "入门"
+   ]
+  },
+  {
+   "r": "charlax/professional-programming",
+   "s": "learn",
+   "z": "给好奇的工程师准备的学习资源集合",
+   "t": [
+    "进阶",
+    "资源"
+   ]
+  },
+  {
+   "r": "jlevy/the-art-of-command-line",
+   "s": "learn",
+   "z": "一页纸掌握命令行：从入门到熟练的清单",
+   "t": [
+    "命令行",
+    "速成"
+   ]
+  },
+  {
+   "r": "huihut/interview",
+   "s": "learn",
+   "z": "C/C++ 技术面试知识总结，从语言到网络与链接",
+   "t": [
+    "C++",
+    "面试"
+   ]
+  },
+  {
+   "r": "amosblomqvist/learnharness",
+   "s": "learn",
+   "z": "用代理 harness 学难学的科目",
+   "t": [
+    "代理",
+    "学习法"
+   ]
+  },
+  {
+   "r": "storytold/craft-anything",
+   "s": "learn",
+   "z": "搞懂任何软件是怎么工作的，然后自己造一个",
+   "t": [
+    "逆向理解",
+    "实战"
+   ]
+  },
+  {
+   "r": "xiaoyang111222/cn-math-taxonomy",
+   "s": "learn",
+   "z": "K12 数学英语知识图谱：1600+ 知识点、2400 条先修关系",
+   "t": [
+    "知识图谱",
+    "教育"
+   ]
+  },
+  {
+   "r": "sindresorhus/awesome",
+   "s": "collections",
+   "z": "所有 awesome 清单的总入口",
+   "t": [
+    "清单",
+    "入口"
+   ]
+  },
+  {
+   "r": "public-apis/public-apis",
+   "s": "collections",
+   "z": "免费 API 大全，按领域和鉴权方式分类",
+   "t": [
+    "API",
+    "免费"
+   ]
+  },
+  {
+   "r": "awesome-selfhosted/awesome-selfhosted",
+   "s": "collections",
+   "z": "可以自己托管的服务与应用清单",
+   "t": [
+    "自建",
+    "清单"
+   ]
+  },
+  {
+   "r": "vinta/awesome-python",
+   "s": "collections",
+   "z": "Python 库与工具的权威清单：「我想做 X，用哪个」",
+   "t": [
+    "Python",
+    "清单"
+   ]
+  },
+  {
+   "r": "521xueweihan/HelloGitHub",
+   "s": "collections",
+   "z": "中文圈每月精选有趣、入门级开源项目",
+   "t": [
+    "中文",
+    "月刊"
+   ]
+  },
+  {
+   "r": "GitHubDaily/GitHubDaily",
+   "s": "collections",
+   "z": "中文 GitHub 优质项目与教程的日更账号仓库",
+   "t": [
+    "中文",
+    "资讯"
+   ]
+  },
+  {
+   "r": "avelino/awesome-go",
+   "s": "collections",
+   "z": "Go 框架、库与软件的精选清单",
+   "t": [
+    "Go",
+    "清单"
+   ]
+  },
+  {
+   "r": "jaywcjlove/awesome-mac",
+   "s": "collections",
+   "z": "macOS 优质软件清单，按用途分好类",
+   "t": [
+    "macOS",
+    "软件"
+   ]
+  },
+  {
+   "r": "MunGell/awesome-for-beginners",
+   "s": "collections",
+   "z": "适合新手的开源项目清单，第一次贡献从这里挑",
+   "t": [
+    "新手",
+    "贡献"
+   ]
+  },
+  {
+   "r": "trimstray/the-book-of-secret-knowledge",
+   "s": "collections",
+   "z": "CLI、运维、安全的秘籍与单行命令合集",
+   "t": [
+    "秘籍",
+    "运维"
+   ]
+  },
+  {
+   "r": "ibraheemdev/modern-unix",
+   "s": "collections",
+   "z": "一页看完所有现代 Unix 命令替代品",
+   "t": [
+    "Unix",
+    "替代"
+   ]
+  },
+  {
+   "r": "tiimgreen/github-cheat-sheet",
+   "s": "collections",
+   "z": "Git 与 GitHub 的冷门功能清单",
+   "t": [
+    "Git",
+    "技巧"
+   ]
+  },
+  {
+   "r": "Hack-with-Github/Awesome-Hacking",
+   "s": "collections",
+   "z": "安全、渗透、逆向方向的清单合集",
+   "t": [
+    "安全",
+    "清单"
+   ]
+  },
+  {
+   "r": "hesreallyhim/awesome-claude-code",
+   "s": "collections",
+   "z": "Claude Code 生态里值得用的资源精选",
+   "t": [
+    "Claude",
+    "资源"
+   ]
+  },
+  {
+   "r": "VoltAgent/awesome-openclaw-skills",
+   "s": "collections",
+   "z": "5400+ 个 OpenClaw 技能，已过滤和分类",
+   "t": [
+    "skills",
+    "清单"
+   ]
+  },
+  {
+   "r": "ComposioHQ/awesome-claude-skills",
+   "s": "collections",
+   "z": "Claude Skills 与定制化资源的精选清单",
+   "t": [
+    "skills",
+    "清单"
+   ]
+  },
+  {
+   "r": "sickn33/agentic-awesome-skills",
+   "s": "collections",
+   "z": "近 3000 个可复用的 agent 技能，通用于主流代理",
+   "t": [
+    "skills",
+    "清单"
+   ]
+  },
+  {
+   "r": "papers-we-love/papers-we-love",
+   "s": "collections",
+   "z": "值得读和讨论的计算机科学论文",
+   "t": [
+    "论文",
+    "CS"
+   ]
+  },
+  {
+   "r": "binhnguyennus/awesome-scalability",
+   "s": "collections",
+   "z": "可扩展、可靠、高性能大系统的模式集",
+   "t": [
+    "架构",
+    "规模化"
+   ]
+  },
+  {
+   "r": "goabstract/Awesome-Design-Tools",
+   "s": "collections",
+   "z": "设计工具与插件大全",
+   "t": [
+    "设计",
+    "工具"
+   ]
+  },
+  {
+   "r": "agarrharr/awesome-cli-apps",
+   "s": "collections",
+   "z": "命令行应用清单，按场景分类",
+   "t": [
+    "CLI",
+    "清单"
+   ]
+  },
+  {
+   "r": "LeCoupa/awesome-cheatsheets",
+   "s": "collections",
+   "z": "常用语言、框架、工具的速查表合集",
+   "t": [
+    "速查",
+    "合集"
+   ]
+  },
+  {
+   "r": "DopplerHQ/awesome-interview-questions",
+   "s": "collections",
+   "z": "按技术栈分好的面试题库索引",
+   "t": [
+    "面试",
+    "题库"
+   ]
+  }
+ ]
+}

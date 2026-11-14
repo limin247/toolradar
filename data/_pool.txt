@@ -1,0 +1,408 @@
+
+## hall-of-fame
+codecrafters-io/build-your-own-x|562440|Markdown|2018-05|2026-11|Master programming by recreating your favorite technologies from scratch.|awesome-list,free,programming,tutorial-code
+sindresorhus/awesome|536644|-|2014-07|2026-09|😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are tempor|awesome,awesome-list,lists,resources
+public-apis/public-apis|498899|Python|2016-03|2026-11|A collective list of free APIs|api,apis,dataset,development
+freeCodeCamp/freeCodeCamp|459119|TypeScript|2014-12|2026-11|freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and |careers,certification,community,curriculum
+morluto/rea|458613|TypeScript|2026-04|2026-11|Reverse engineer anything with agents, from app behavior down to native binaries.|agent-skills,ai,android,claude-code
+EbookFoundation/free-programming-books|401575|Python|2013-10|2026-11|:books: Freely available programming books|books,education,hacktoberfest,list
+openclaw/openclaw|394424|TypeScript|2025-11|2026-11|The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 |ai,assistant,crustacean,molty
+donnemartin/system-design-primer|377842|Python|2017-02|2026-09|Learn how to design large-scale systems. Prep for the system design interview.  Inclu|design,design-patterns,design-system,development
+nilbuild/developer-roadmap|371981|TypeScript|2017-03|2026-11|Interactive roadmaps, guides and other educational content to help developers grow in|angular-roadmap,backend-roadmap,blockchain-roadmap,computer-science
+jwasham/coding-interview-university|364364|-|2016-06|2026-11|A complete computer science study plan to become a software engineer.|algorithm,algorithms,coding-interview,coding-interviews
+awesome-selfhosted/awesome-selfhosted|336900|-|2015-06|2026-11|A list of Free Software network services and web applications which can be hosted on |awesome,awesome-list,cloud,free-software
+vinta/awesome-python|334661|Python|2014-06|2026-11|The definitive list that answers "I want to do X in Python, which tool should I use?"|awesome,awesome-list,python,python-frameworks
+mattpocock/skills|324123|Shell|2026-02|2026-11|Skills for Real Engineers. Straight from my .agents directory.|
+obra/superpowers|317409|Shell|2025-10|2026-11|An agentic skills framework & software development methodology that works.|ai,brainstorming,coding,obra
+affaan-m/ECC|302634|JavaScript|2026-01|2026-11|The agent harness performance optimization system. Skills, instincts, memory, securit|ai-agents,anthropic,claude,claude-code
+practical-tutorials/project-based-learning|289710|Python|2017-04|2026-11|Curated list of project-based tutorials|beginner-project,cpp,golang,javascript
+deepseek-ai/deepseek-harness|280860|TypeScript|2026-08|2026-11|DeepSeek Harness: Everything is a Plugin.|ai-agents,cordis,dsh,dsh-plugin
+996icu/996.ICU|277225|-|2019-03|2025-08|Repo for counting stars and contributing. Press F to pay respect to glorious develope|
+NousResearch/hermes-agent|263281|Python|2025-07|2026-11|The agent that grows with you|ai,ai-agent,ai-agents,anthropic
+trimstray/the-book-of-secret-knowledge|258394|-|2018-06|2024-11|A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/|awesome,awesome-list,bsd,cheatsheets
+torvalds/linux|255625|C|2011-09|2026-11|Linux kernel source tree|
+react/react|252599|JavaScript|2013-05|2026-11|The library for web and native user interfaces.|declarative,frontend,javascript,library
+
+## cli
+n8n-io/n8n|210454|TypeScript|2019-06|2026-11|Fair-code workflow automation platform with native AI capabilities. Combine visual bu|ai,apis,automation,cli
+yt-dlp/yt-dlp|207698|Python|2020-10|2026-11|A feature-rich command-line audio/video downloader|cli,downloader,python,sponsorblock
+ohmyzsh/ohmyzsh|190615|Shell|2009-08|2026-11|🙃   A delightful community-driven (with 2,500+ contributors) framework for managing y|cli,cli-app,oh-my-zsh,oh-my-zsh-plugin
+Panniantong/Agent-Reach|111680|Python|2026-02|2026-11|Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, Yo|agent-infrastructure,ai-agent,ai-search,automation
+sherlock-project/sherlock|111455|Python|2018-12|2026-11|Hunt down social media accounts by username across social networks|cli,cti,cybersecurity,forensics
+google-gemini/gemini-cli|108823|TypeScript|2025-04|2026-11|An open-source AI agent that brings the power of Gemini directly into your terminal.|ai,ai-agents,cli,gemini
+OpenHands/OpenHands|93455|TypeScript|2024-03|2026-11|🙌 OpenHands: AI-Driven Development|agent,artificial-intelligence,chatgpt,claude-ai
+rtk-ai/rtk|86543|Rust|2026-01|2026-11|CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single|agentic-coding,ai-coding,anthropic,claude-code
+junegunn/fzf|84194|Go|2013-10|2026-11|:cherry_blossom: A command-line fuzzy finder|bash,cli,fish,fzf
+jesseduffield/lazygit|83887|Go|2018-05|2026-11|simple terminal UI for git commands|cli,git,terminal
+BurntSushi/ripgrep|69943|Rust|2016-03|2026-11|ripgrep recursively searches directories for a regex pattern while respecting your gi|cli,command-line,command-line-tool,gitignore
+tldr-pages/tldr|64205|Markdown|2013-12|2026-11|Collaborative cheatsheets for console commands 📚.|android,bsd,cheatsheet,cheatsheets
+tw93/Pake|63589|Rust|2022-10|2026-11|Turn any website into a lightweight desktop app with one command, on macOS, Windows a|chatgpt,claude,cli,desktop
+Raphire/Win11Debloat|62617|PowerShell|2020-10|2026-11|A simple, lightweight PowerShell script that allows you to remove pre-installed apps,|automated,bloatware,bloatware-removal,cleanup
+sharkdp/bat|61250|Rust|2018-04|2026-11|A cat(1) clone with wings.|cli,command-line,git,hacktoberfest
+wagoodman/dive|54724|Go|2018-05|2026-11|A tool for exploring each layer in a docker image|cli,docker,docker-image,explorer
+obsidianmd/obsidian-skills|52388|Shell|2026-01|2026-11|Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats incl|agents,agentskills,bases,claude
+herdrdev/herdr|50903|Rust|2026-03|2026-11|the runtime your coding agents live on|agent,agent-orchestration,ai,ai-agents
+Aider-AI/aider|50116|Python|2023-05|2026-05|aider is AI pair programming in your terminal|anthropic,chatgpt,claude-3,cli
+jeecgboot/JeecgBoot|48473|Java|2018-11|2026-11|一款免费开源的 AI 低代码平台，也是 AI 时代构建复杂业务系统的开源基座！权限、多租户、工作流、报表、大屏、AI 知识库等通用能力开箱即用，AI 只需生成业务差异部分|activiti,agent,ai,antd
+cli/cli|47011|Go|2019-10|2026-11|GitHub’s official command line tool|cli,git,github-api-v4,golang
+google/zx|45849|JavaScript|2021-05|2026-11|A tool for writing better scripts|bash,child-process,cli,exec
+
+## developer-tools
+DietrichGebert/ponytail|190579|JavaScript|2026-06|2026-10|Makes your AI agent think like the laziest senior dev in the room. The best code is t|agent-skills,ai-agents,claude,claude-code
+Graphify-Labs/graphify|147457|Python|2026-04|2026-11|Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable kn|ai-agents,antigravity,ast,claude-code
+tt-a1i/archify|96332|JavaScript|2026-04|2026-11|Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill|agent-skills,ai-agents,architecture-diagram,claude-code
+puppeteer/puppeteer|95837|TypeScript|2017-05|2026-11|JavaScript API for Chrome and Firefox|automation,chrome,chromium,developer-tools
+hoppscotch/hoppscotch|80801|TypeScript|2019-08|2026-11|Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cl|api,api-client,api-rest,api-testing
+ComposioHQ/awesome-claude-skills|79469|Python|2025-10|2026-09|A curated list of awesome Claude Skills, resources, and tools for customizing Claude |agent-skills,ai-agents,antigravity,automation
+Ebony-Vinyl/dsh-our-free-model|73594|JavaScript|2026-09|2026-11|在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限|ai-agents,deepseek,deepseek-harness,developer-tools
+daytonaio/daytona|71319|-|2024-02|2026-07|Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code|agentic-workflow,ai,ai-agents,ai-runtime
+localstack/localstack|65117|Python|2016-10|2026-03|💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless |aws,cloud,continuous-integration,developer-tools
+ayghri/i-have-adhd|61147|Python|2026-05|2026-10|A skill to stop your coding agent from burying the answer. ADHD-friendly output.|adhd,claude-,claude-code-plugin,claude-skills
+sickn33/agentic-awesome-skills|49684|Python|2026-01|2026-11|2,955+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Co|agent-skills,agentic-skills,ai-agent-skills,ai-agents
+DeusData/codebase-memory-mcp|48622|C|2026-02|2026-11|Local code intelligence for developers and AI agents. Connect code, docs and infrastr|aider,ast,claude-code,code-analysis
+GitHubDaily/GitHubDaily|48453|-|2018-12|2025-12|坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of Git|ai,algorithms-and-data-structures,backend,developer-tools
+usebruno/bruno|48396|JavaScript|2022-09|2026-11|Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/In|api-client,api-testing,automation,developer-tools
+files-community/Files|46643|C#|2019-01|2026-11|A modern file manager that helps users organize their files and folders.|alternatives,csharp,customization,developer-tools
+streamlit/streamlit|46351|Python|2019-08|2026-11|Streamlit — The agent-native framework for data apps and dashboards.|agents,business-intelligence,dashboards,data-analysis
+sxyazi/yazi|43394|Rust|2023-07|2026-11|💥 Blazing fast terminal file manager written in Rust, based on async I/O.|android,asyncio,cli,command-line
+agno-agi/agno|43186|Python|2022-05|2026-11|The self-managing agent platform|agents,ai,ai-agents,developer-tools
+CorentinTh/it-tools|41262|Vue|2020-04|2026-11|Collection of handy online tools for developers, with great UX. |converter,developer-productivity,developer-tools,frontend
+appsmithorg/appsmith|41249|TypeScript|2020-06|2026-11|Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ d|admin-dashboard,admin-panels,app-builder,automation
+codewhale-hq/Codewhale|41173|Rust|2026-01|2026-11|An open-source coding agent for your terminal, written in Rust. It works with any mod|agent-client-protocol,agent-orchestration,ai-agent,ai-coding
+koalaman/shellcheck|40337|Haskell|2012-11|2026-11|ShellCheck, a static analysis tool for shell scripts|bash,developer-tools,haskell,linter
+
+## productivity
+excalidraw/excalidraw|135666|TypeScript|2020-01|2026-11|Virtual whiteboard for sketching hand-drawn like diagrams|canvas,collaboration,diagrams,drawing
+ShareX/ShareX|41025|C#|2013-10|2026-11|ShareX is a free and open-source application that enables users to capture or record |avalonia,capture,color-picker,csharp
+khoj-ai/khoj|38126|Python|2021-08|2026-08|Your AI second brain. Self-hostable. Get answers from the web or your docs. Build cus|agent,ai,assistant,chat
+Wox-launcher/Wox|27641|Go|2013-12|2026-11|A cross-platform launcher that simply works|alfred,app-launcher,launcher,launchpad
+lissy93/dashy|26997|Vue|2021-02|2026-11|🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets|awesome,dashboard,docker,homelab
+nylas/nylas-mail|24726|JavaScript|2014-10|2026-06|:love_letter: An extensible desktop mail app built on the modern web.  Forks welcome!|babel,electron,email,flux
+plotly/dash|24489|Python|2015-04|2026-11|Data Apps & Dashboards for Python. No JavaScript Required.|ai,bioinformatics,charting,dash
+super-productivity/super-productivity|23666|TypeScript|2017-01|2026-11|Super Productivity is an advanced todo list app with integrated Timeboxing and time t|android,flowmodoro,flowtime,habit-tracker
+wavetermdev/waveterm|22699|Go|2022-06|2026-11|An open-source, AI-integrated, cross-platform terminal for seamless workflows|command-line,developer-tools,linux,macos
+jarun/nnn|22122|C|2016-08|2026-11|n³ The unorthodox terminal file manager|android,batch-rename,c,cli
+danielmiessler/LifeOS|19879|TypeScript|2025-09|2026-11|⛰️ LifeOS — The AI-powered Life Operating System that helps you hill climb to whereve|ai,ai-harness,augmentation,coding
+ActivityWatch/activitywatch|19624|Python|2016-04|2026-11|The best free and open-source automated time tracker. Cross-platform, extensible, pri|activitywatch,afk,analytics,app
+wulkano/Kap|19427|TypeScript|2016-08|2024-11|An open-source screen recorder built with web technology|aperture,app,capture,communication
+alyssaxuu/screenity|18990|JavaScript|2020-11|2026-11|The free and privacy-friendly screen recorder with no limits 🎥|annotation,annotation-tool,audio,camera
+rowboatlabs/rowboat|18242|TypeScript|2025-01|2026-11|Your agent team, in one group chat.|agents,agents-sdk,ai,ai-agents
+mahmoud/awesome-python-applications|18160|Jupyter Notebook|2018-11|2026-10|💿 Free software that works great, and also happens to be open-source Python. |application,audio,education,game
+omnivore-app/omnivore|16415|TypeScript|2022-02|2026-11|Omnivore is a complete, open source read-it-later solution for people who like readin|bookmarks,logseq,logseq-plugin,productivity
+Flow-Launcher/Flow.Launcher|16025|C#|2020-04|2026-11|:mag: Quick file search & app launcher for Windows with community-made plugins|alfred,application-launcher,desktop,finder
+YishenTu/claudian|15989|TypeScript|2025-12|2026-11|An Obsidian plugin that embeds Claude Code, Codex and other agents as an AI collabora|claude-code,codex,deepseek-harness,grok
+Bash-it/bash-it|15299|Shell|2010-10|2026-10|A community Bash framework.|bash,bash-alias,bash-completion,bash-configuration
+plait-board/drawnix|15057|TypeScript|2024-06|2026-09|开源白板工具（SaaS），一体化白板，包含思维导图、流程图、自由画等。All in one open-source whiteboard tool with mind, |collaboration,drawing,flowchart,localfirst
+streetwriters/notesnook|14937|TypeScript|2021-04|2026-11|A fully open source & end-to-end encrypted note taking alternative to Evernote.|asp-net-core,dotnet-core,electron,foss
+
+## llm
+firecrawl/firecrawl|201665|TypeScript|2024-04|2026-11|Supercharge your AI agents with data from the web and beyond. Building the library fo|ai,ai-agents,ai-crawler,ai-scraping
+Significant-Gravitas/AutoGPT|188024|Python|2023-03|2026-11|AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our miss|agentic-ai,agents,ai,artificial-intelligence
+ollama/ollama|186934|Go|2023-06|2026-11|Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other |deepseek,gemma,glm,go
+f/prompts.chat|177187|MDX|2022-12|2026-11|f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the communi|ai,artificial-intelligence,awesome-list,chatgpt
+huggingface/transformers|168962|Python|2018-10|2026-11|🤗 Transformers: the model-definition framework for state-of-the-art machine learning |audio,deep-learning,deepseek,gemma
+langgenius/dify|161142|Python|2023-04|2026-11|Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one co|agent,agentic-ai,agentic-framework,agentic-workflow
+open-webui/open-webui|158626|Svelte|2023-10|2026-11|User-friendly AI Interface (Supports Ollama, OpenAI API, ...)|ai,llm,llm-ui,llm-webui
+langchain-ai/langchain|149490|Python|2022-10|2026-11|The agent engineering platform.|agents,ai,ai-agents,anthropic
+harry0703/MoneyPrinterTurbo|143430|Python|2024-03|2026-11|利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword w|ai-video-generator,content-creation,ffmpeg,instagram-reels
+TauricResearch/TradingAgents|122512|Python|2024-12|2026-11|TradingAgents: Multi-Agents LLM Financial Trading Framework|agent,finance,llm,multiagent
+browser-use/browser-use|120981|Python|2024-10|2026-11|Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth bro|ai-agents,ai-tools,browser-agent,browser-automation
+JuliusBrussee/caveman|119776|Go|2026-04|2026-11|🪨 why use many token when few token do trick. Viral skill + proxy for coding agents t|ai,anthropic,caveman,claude
+paperclipai/paperclip|113796|TypeScript|2026-03|2026-11|The open-source app everyone uses to manage agents at work|acpx,agent-orchestration,agent-skills,agentic-ai
+rasbt/LLMs-from-scratch|108393|Jupyter Notebook|2023-07|2026-11|Implement a ChatGPT-like LLM in PyTorch from scratch, step by step|ai,artificial-intelligence,attention-mechanism,deep-learning
+vllm-project/vllm|96915|Python|2023-02|2026-11|A high-throughput and memory-efficient inference and serving engine for LLMs|amd,blackwell,cuda,deepseek
+unclecode/crawl4ai|87339|Python|2024-05|2026-11|Official Crawl4AI Cloud: a hosted web scraping, extraction, and search API for AI age|ai,ai-agents,crawl4ai-cloud,crawler
+datawhalechina/hello-agents|86971|Python|2025-09|2026-11|📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程|agent,llm,rag,tutorial
+bytedance/deer-flow|85327|Python|2025-05|2026-11|An open-source long-horizon SuperAgent harness that researches, codes, and creates. W|agent,agentic,agentic-framework,agentic-workflow
+mlabonne/llm-course|85097|-|2023-06|2026-02|Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.|course,large-language-models,llm,machine-learning
+shareAI-lab/learn-claude-code|80399|Python|2025-06|2026-10|Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1|agent,agent-development,ai-agent,claude
+headroomlabs-ai/headroom|79624|Python|2026-01|2026-11|Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% few|agent,ai,anthropic,claude-code
+unslothai/unsloth|79475|Python|2023-11|2026-11|Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, Dee|agent,ai,chatgpt,deepseek
+
+## agents
+stablyai/orca|124621|TypeScript|2026-03|2026-11|Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own su|agent-ide,ai-agents,automation,bot
+thedotmack/claude-mem|116956|TypeScript|2025-08|2026-11|Persistent Context Across Sessions for Every Agent –  Captures everything your agent |ai,ai-agents,ai-memory,anthropic
+Leonxlnx/taste-skill|115296|JavaScript|2026-02|2026-11|Agent skills that give coding agents taste: art direction, reference images and a bro|agent-skills,ai-agents,anti-slop,claude-code
+infiniflow/ragflow|94139|Go|2023-12|2026-11|RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine th|agent-harness,agent-native-database,agentic-ai,agentic-retrieval
+cheaper-inference/OmniRoute|87289|TypeScript|2026-02|2026-11|Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,40|a2a,ai-agents,ai-gateway,anthropic
+heygen-com/hyperframes|84130|TypeScript|2026-03|2026-11|Write HTML. Render video. Built for agents.|ai,ai-agents,animation,claude-code
+ruvnet/ruflo|81668|TypeScript|2025-06|2026-11|🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate auto|agent-memory,agent-orchestration,agentic-ai,agentic-workflow
+dair-ai/Prompt-Engineering-Guide|80047|MDX|2022-12|2026-03|🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context en|agent,agents,ai-agents,chatgpt
+microsoft/ai-agents-for-beginners|79605|Jupyter Notebook|2024-11|2026-11|18 Lessons to Get Started Building AI Agents|agentic-ai,agentic-framework,agentic-rag,ai-agents
+rohitg00/ai-engineering-from-scratch|78752|Python|2026-03|2026-11|Learn AI Engineering! Learn it. Build it. Ship it for others.|agents,ai,ai-agents,ai-engineering
+thedaviddias/Front-End-Checklist|74729|MDX|2017-10|2026-10|🗂 The essential checklist for modern web development, for humans and AI agents|ai-agent,ai-agents,checklist,css
+ai-job-search-dev/ai-job-search|71657|Python|2026-03|2026-11|The job search that runs on your machine. AI job application framework built on Claud|ai,ai-agents,career,claude-code
+asgeirtj/system_prompts_leaks|71386|Python|2025-05|2026-11|Leaked system prompts of ChatGPT, Claude, Gemini and more. The hidden system prompt o|ai,ai-agents,ai-prompts,anthropic
+code-yeongyu/oh-my-openagent|70906|TypeScript|2025-12|2026-11|OmO: Just type "mass ulw" keyword with your prompt. Now you are the master of graph e|ai,ai-agents,anthropic,chatgpt
+shanraisshan/claude-code-best-practice|69047|HTML|2025-10|2026-11|from vibe coding to agentic engineering - practice makes claude perfect|agentic-ai,agentic-coding,agentic-engineering,agentic-workflow
+mem0ai/mem0|68948|Python|2023-06|2026-11|The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps|agentic-memory,agentic-memory-system,agents,ai
+Mintplex-Labs/anything-llm|68266|JavaScript|2023-06|2026-11|Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a po|agent-computer,agent-harness,agent-orchestration,agentic-ai
+crewAIInc/crewAI|60878|Python|2023-10|2026-11|Framework for orchestrating role-playing, autonomous AI agents. By fostering collabor|agents,ai,ai-agents,aiagentframework
+coreyhaines31/marketingskills|60235|JavaScript|2026-01|2026-11|Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and|agent-skills,ai-agents,ai-seo,claude
+HKUDS/DeepTutor|59092|Python|2025-12|2026-11|DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.|ai-agents,ai-tutor,clawbot,cli-tool
+aaif-goose/goose|56592|Rust|2024-08|2026-11|an open source, extensible AI agent that goes beyond code suggestions - install, exec|acp,ai,ai-agents,mcp
+CherryHQ/cherry-studio|53504|TypeScript|2024-05|2026-11|Your AI workspace for models, agents, and productivity.|agent-skills,agent-workspace,agentic-workspace,ai-agents
+
+## frontend
+vuejs/vue|212526|TypeScript|2013-07|2024-10|This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core|framework,frontend,javascript,vue
+vitejs/vite|83898|TypeScript|2020-04|2026-11|Next generation frontend tooling. It's fast!|build-tool,dev-server,frontend,hmr
+typicode/json-server|75744|JavaScript|2013-11|2026-03|Get a full fake REST API with zero coding in less than 30 seconds (seriously)|api,fake,frontend,json
+expo/expo|53536|TypeScript|2016-08|2026-11|An open-source framework for making universal native apps with React. Expo runs on An|android,app-framework,expo,framework
+ionic-team/ionic-framework|52752|TypeScript|2013-08|2026-11|A powerful cross-platform UI toolkit for building native-quality iOS, Android, and Pr|angular,capacitor,framework,frontend
+dypsilon/frontend-dev-bookmarks|47773|-|2013-06|2024-05|Manually curated collection of resources for frontend web developers.|awesome,awesome-list,frontend,list
+LeCoupa/awesome-cheatsheets|46673|JavaScript|2017-11|2026-10|👩‍💻👨‍💻 Awesome cheatsheets for popular programming languages, frameworks and developm|backend,bash,cheatsheet,cheatsheets
+NaiboWang/EasySpider|44791|JavaScript|2020-07|2026-11|A visual no-code/code-free web crawler/spider易采集：一个可视化浏览器自动化测试/数据采集/网页爬虫软件，可以无代码图形化的设|batch-processing,batch-script,code-free,crawler
+The-Vibe-Company/quivr|39650|Go|2023-05|2026-11|An open-source engine that turns continuous content streams into search and monitorin|ai,api,chatbot,chatgpt
+Dokploy/dokploy|38493|TypeScript|2024-04|2026-11|Open Source Alternative to Vercel, Netlify and Heroku.|agents,ai,backend,backups
+mouredev/Hello-Python|38043|Python|2022-08|2025-08|Curso para aprender el lenguaje de programación Python desde cero y para principiante|backend,chatgpt,chatgpt-api,fastapi
+xitu/gold-miner|34371|-|2015-11|2024-04|🥇掘金翻译计划，可能是世界最大最好的英译中技术社区，最懂读者和译者的翻译平台：|ai,android,frontend,ios
+ascoders/weekly|31723|JavaScript|2017-03|2024-09|前端精读周刊。帮你理解最前沿、实用的技术。|awesome,frontend,weekly
+AllThingsSmitty/css-protips|30305|-|2015-08|2026-09|A collection of tips to help take your CSS skills pro. 🕹 |accessibility,awesome-list,best-practices,cheatsheet
+onlook-dev/onlook|27212|TypeScript|2024-06|2026-10|The Developer Tool for Visual Engineers • An Open-Source AI-First Design tool • Visua|ai,claude-code,codex,cursor
+haizlin/fe-interview|26246|JavaScript|2019-04|2025-10|前端面试每日 3+1，以面试题来驱动学习，提倡每日学习与思考，每天进步一点！每天早上5点纯手工发布面试题（死磕自己，愉悦大家），6000+道前端面试题全面覆盖，HTML/|css,fe-interview,front-end,frontend
+iview/iview|23743|Vue|2016-07|2024-01|A high quality UI Toolkit built on Vue.js 2.0|components,css,design-systems,frontend
+vueComponent/ant-design-vue|21711|Vue|2017-09|2026-11|🌈  An enterprise-class UI components based on Ant Design and Vue. 🐜|ant,ant-design,antd,antd-vue
+baidu/amis|18888|TypeScript|2019-04|2026-03|前端低代码框架，通过 JSON 配置就能生成各种页面。|admin,frontend,frontend-framework,json
+nhn/tui.editor|17985|TypeScript|2015-07|2024-08|🍞📝 Markdown WYSIWYG Editor. GFM Standard + Chart & UML Extensible.|chart,commonmark,documentation,editor
+thedaviddias/Front-End-Performance-Checklist|17395|-|2018-07|2026-10|🎮 The only Front-End Performance Checklist that runs faster than the others|checklist,css,front-end-developer-tool,front-end-development
+The-Cool-Coders/Project-Ideas-And-Resources|17197|-|2020-10|2026-10|A Collection of application ideas that can be used to improve your coding skills ❤.|beginner,contribution,contributions-welcome,css
+
+## design
+pbakaus/impeccable|109880|Rust|2025-11|2026-11|The design vocabulary for your coding agent. Steer with polish and bolder, review wit|agent-skills,ai,anti-slop,design
+penpot/penpot|62344|Clojure|2015-12|2026-11|Penpot: The open-source design platform for Product teams that need scalable collabor|clojure,clojurescript,design,prototyping
+tldraw/tldraw|51416|TypeScript|2021-05|2026-11|Build infinite canvas apps in React with the tldraw SDK. World's best, top-most agent|canvas,collaboration,design,diagram
+jgthms/bulma|50033|CSS|2016-01|2026-09|Modern CSS framework based on Flexbox|css,css-framework,design,flexbox
+goabstract/Awesome-Design-Tools|41889|JavaScript|2019-02|2024-07|The best design tools and plugins for everything 👉|animations,awesome,awesome-list,design
+chatwoot/chatwoot|39848|Ruby|2019-08|2026-11|Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, |actioncable,chat-widget,conversation,customer-support
+Dogfalo/materialize|38768|JavaScript|2014-09|2026-08|Materialize, a CSS Framework based on Material Design|css,css-framework,design,framework
+nextcloud/server|37512|PHP|2016-06|2026-11|☁️ Nextcloud server, a safe home for all your data|cloud,collaboration,decentralized,design
+alchaincyf/huashu-design|29459|HTML|2026-04|2026-11|Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三|agent-skills,ai-design,animation,claude-code
+GraphiteEditor/Graphite|27936|Rust|2020-04|2026-11|Community-built comprehensive 2D content creation appplication for graphic design, di|2d-graphics,animation,art,creative-coding
+simple-icons/simple-icons|26218|JavaScript|2012-11|2026-11|SVG icons for popular brands|brand,brand-assets,brand-colors,branding
+processing/p5.js|24345|JavaScript|2013-02|2026-11|p5.js is a client-side JS platform that empowers artists, designers, students, and an|art,creative-coding,design,education
+palantir/blueprint|22206|TypeScript|2016-10|2026-11|A React-based UI toolkit for the web|blueprint,components,design,lerna
+rsms/inter|20067|Python|2017-08|2024-11|The Inter font family|design,font,typeface
+mojs/mojs|18913|CoffeeScript|2014-06|2026-07|The motion graphics toolbelt for the web|animation,burst,design,es6
+gztchan/awesome-design|17777|-|2016-07|2024-07|🌟 Curated design resources from all over the world.|adobe,awesome,creative,curated
+ellisonleao/magictools|17774|Markdown|2014-07|2026-11|:video_game: :pencil: A list of Game Development resources to make magic happen.|art,awesome,awesome-list,board-games
+dair-ai/ml-visuals|17454|-|2020-05|2023-02|🎨 ML Visuals contains figures and templates which you can reuse and customize to impr|artificial-intelligence,deep-learning,design,machine-learning
+MaterialDesignInXAML/MaterialDesignInXamlToolkit|16302|C#|2015-02|2026-11|Google's Material Design in XAML & WPF, for C# & VB.Net. |c-sharp,design,dragablz,hacktoberfest
+terkelg/awesome-creative-coding|15597|HTML|2016-11|2026-07|Creative Coding: Generative Art, Data visualization, Interaction Design, Resources.|3d-graphics,art,awesome,awesome-list
+originalankur/maptoposter|14300|Python|2026-01|2026-08|Transform your favorite cities into beautiful, minimalist designs. MapToPoster lets y|design,maps,matplotlib-pyplot,openstreetmap
+CosmicMind/Material|12020|Swift|2015-08|2022-05|A UI/UX framework for creating beautiful applications.|animation,card,cosmicmind,design
+
+## devops
+bregman-arie/devops-exercises|86803|Python|2019-10|2025-12|Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terra|ansible,aws,azure,coding
+netdata/netdata|81408|Go|2013-06|2026-11|The fastest path to AI-powered full stack observability, even for lean teams.|ai,alerting,cncf,data-visualization
+binhnguyennus/awesome-scalability|75719|-|2017-12|2026-01|The Patterns of Scalable, Reliable, and Performant Large-Scale Systems|architecture,awesome,awesome-list,backend
+nektos/act|72692|Go|2019-01|2026-11|Run your GitHub Actions locally 🚀|ci,devops,github-actions,golang
+go-gitea/gitea|59083|Go|2016-11|2026-11|Git with a cup of tea! Painless self-hosted all-in-one software development service, |bitbucket,cicd,devops,docker-registry-v2
+getsentry/sentry|45774|Python|2010-08|2026-11|Developer-first error tracking and performance monitoring|apm,crash-reporting,crash-reports,csp-report
+Kong/kong|44378|Lua|2014-11|2026-10|🦍 The API and AI Gateway|ai,ai-gateway,api-gateway,api-management
+httpie/cli|38714|Python|2012-02|2024-12|🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era. JSON |api,api-client,api-testing,cli
+awesome-foss/awesome-sysadmin|35699|-|2014-12|2026-10|A curated list of amazingly awesome open-source sysadmin resources.|awesome,awesome-list,devops,list
+dokku/dokku|32227|Shell|2013-06|2026-11|A docker-powered PaaS that helps you build and manage the lifecycle of applications|buildpack,containers,devops,docker
+floci-io/floci|31713|Java|2026-02|2026-11|Light, fluffy, and always free - The AWS Local Emulator alternative|aws,aws-emulation,devops,docker
+MichaelCade/90DaysOfDevOps|30895|Shell|2021-12|2026-06|This repository started out as a learning in public project for myself and has now be|ansible,backup,containers,devops
+kestra-io/kestra|30227|Java|2019-08|2026-11|Orchestrate everything, everywhere. The open-source control plane for workflows acros|ai-agents,automation,control-plane,data-engineering
+jenkinsci/jenkins|26772|Java|2010-11|2026-11|Jenkins automation server|cicd,continuous-delivery,continuous-deployment,continuous-integration
+yeasy/docker_practice|26364|Go|2014-09|2026-11|最新Docker容器技术，从真实案例中学习最佳实践！| Learn and understand Docker&Container technologies, with |book,cloud-computing,container,devops
+argoproj/argo-cd|24606|Go|2018-02|2026-11|Declarative Continuous Deployment for Kubernetes|argo,argo-cd,cd,ci-cd
+containrrr/watchtower|24583|Go|2015-07|2025-12|A process for automating Docker container base image updates. |automation,continuous-delivery,devops,docker
+getsops/sops|23704|Go|2015-08|2026-11|Simple and flexible tool for managing secrets|aws,azure,devops,gcp
+lensapp/lens|23248|-|2018-11|2025-02|Lens - The way the world runs Kubernetes|cloud-native,containers,devops,kubernetes
+pranshuparmar/witr|22997|Go|2025-12|2026-10|Why is this running? Trace any process, port, container, or file back to what started|cli,containers,devops,docker
+milanm/DevOps-Roadmap|20968|-|2022-10|2026-11|DevOps Roadmap for 2026. with learning resources|aws,azure,computer-science,continous-delivery
+dariubs/GoBooks|19788|Go|2015-05|2026-10|List of Golang books|awesome,awesome-go,awesome-golang,awesome-list
+
+## database
+supabase/supabase|114999|TypeScript|2019-10|2026-11|The Postgres development platform. Supabase gives you a dedicated Postgres database t|ai,alternative,auth,database
+Asabeneh/30-Days-Of-Python|78724|Python|2019-11|2026-09|The 30 Days of Python programming challenge is a step-by-step guide to learn the Pyth|30-days-of-python,data,data-science,database
+redis/redis|77491|C|2009-03|2026-11|For developers, who are building real-time data-driven applications, Redis is the pre|cache,caching,database,distributed-systems
+meilisearch/meilisearch|59859|Rust|2018-04|2026-11|A lightning-fast search engine API bringing AI-powered hybrid search to your sites an|ai,api,app-search,database
+etcd-io/etcd|52603|Go|2013-07|2026-11|Distributed reliable key-value store for the most critical data of a distributed syst|cncf,consensus,database,distributed-database
+dbeaver/dbeaver|52433|Java|2015-10|2026-11|Free universal database tool and SQL client|ai,database,databricks,db2
+ClickHouse/ClickHouse|50923|C++|2016-06|2026-11|ClickHouse® is a real-time analytics database management system|ai,analytics,big-data,clickhouse
+metabase/metabase|50326|Clojure|2015-02|2026-11|The easy-to-use open source Business Intelligence and Embedded Analytics tool that le|analytics,bi,business-intelligence,businessintelligence
+prisma/orm|47671|TypeScript|2019-06|2026-11|The Prisma ORM: write your application in TypeScript with human-readable queries inst|cockroachdb,database,javascript,loggy-core
+duckdb/duckdb|43055|C++|2018-06|2026-11|DuckDB is a high-performance analytical database system|analytics,database,embedded-database,olap
+pingcap/tidb|40734|Go|2015-09|2026-11|TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and|agent,agent-context,agent-memory,agentic
+drawdb-io/drawdb|40326|JavaScript|2023-07|2026-11|Free, simple, and intuitive online database diagram editor and SQL generator.|database,database-design,database-diagram,database-schema
+sqlmapproject/sqlmap|38955|Python|2012-06|2026-11|Automatic SQL injection and database takeover tool|api-security,appsec,database,database-security
+directus/directus|38712|TypeScript|2012-12|2026-11|The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin |api,app,cms,composable
+huihut/interview|38313|C++|2018-02|2026-09|📚 C/C++ 技术面试基础知识总结，包括语言、程序库、数据结构、算法、系统、网络、链接装载库等知识及面试经验、招聘、内推等信息。This repository is a|algorithm,c,cpp,data-structures
+typeorm/typeorm|36671|TypeScript|2016-02|2026-11|TypeScript & JavaScript ORM for Node.js — supports PostgreSQL, MySQL, MariaDB, SQLite|active-record,cockroachdb,data-mapper,database
+SheetJS/sheetjs|36343|-|2012-12|2024-04|📗 SheetJS Spreadsheet Data Toolkit -- New home https://git.sheetjs.com/SheetJS/sheetj|angular,bun,csv,data
+surrealdb/surrealdb|33308|Rust|2021-12|2026-11|A scalable, distributed, collaborative, document-graph database, for the realtime web|backend-as-a-service,cloud-database,database,database-as-a-service
+cockroachdb/cockroach|32619|Go|2014-02|2026-11|CockroachDB — the cloud native, distributed SQL database designed for high availabili|cockroachdb,database,distributed-database,go
+meta/rocksdb|32272|C++|2012-11|2026-11|A library that provides an embeddable, persistent key-value store for fast storage.|database,storage-engine
+dragonflydb/dragonfly|31869|C++|2021-12|2026-11|A modern replacement for Redis and Memcached|cache,cpp,database,fibers
+influxdata/influxdb|31812|Rust|2013-09|2026-11|Scalable datastore for metrics, events, and real-time analytics|database,go,influxdb,metrics
+
+## security
+Hack-with-Github/Awesome-Hacking|125489|-|2016-03|2026-10|A collection of various awesome lists for hackers, pentesters and security researcher|android,awesome,bug-bounty,fuzzing
+Developer-Y/cs-video-courses|84838|-|2016-10|2026-11|List of Computer Science courses with video lectures.|algorithms,bioinformatics,computational-biology,computational-physics
+swisskyrepo/PayloadsAllTheThings|82672|Python|2016-10|2026-10|A list of useful payloads and bypass for Web Application Security and Pentest/CTF|bounty,bugbounty,bypass,cheatsheet
+caddyserver/caddy|79034|Go|2015-01|2026-11|Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS|acme,automatic-https,caddy,caddyfile
+usestrix/strix|75479|Python|2025-08|2026-11|Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.|agents,ai-hacking,ai-penetration-testing,ai-pentesting
+KeygraphHQ/shannon|51877|TypeScript|2025-09|2026-11|Shannon is an AI pentester for web applications and APIs. It analyzes your source cod|ai-penetration-testing,ai-security,api-security,appsec
+x64dbg/x64dbg|50306|C++|2015-04|2026-11|An open-source user mode debugger for Windows. Optimized for reverse engineering and |binary-analysis,ctf,cybersecurity,debugger
+mitmproxy/mitmproxy|46910|Python|2010-02|2026-11|An interactive TLS-capable intercepting HTTP proxy for penetration testers and softwa|debugging,http,http2,man-in-the-middle
+GyulyVGC/sniffnet|42754|Rust|2022-07|2026-11|Comfortably monitor your network traffic 🕵️‍♂️|app,application,cybersecurity,gui
+aquasecurity/trivy|39334|Go|2019-04|2026-11|Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, cod|containers,devsecops,docker,go
+mukul975/Anthropic-Cybersecurity-Skills|36117|Python|2026-02|2026-08|817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT|ai-agents,claude-code,cloud-security,cybersecurity
+lissy93/web-check|35509|TypeScript|2023-06|2026-11|🕵️‍♂️ All-in-one OSINT tool for analysing any website|osint,privacy,security,security-tools
+OWASP/CheatSheetSeries|34055|JavaScript|2018-12|2026-11|The OWASP Cheat Sheet Series was created to provide a concise collection of high valu|application-security,appsec,best-practices,cheatsheets
+projectdiscovery/nuclei|32899|Go|2020-04|2026-11|Nuclei is a fast, customizable vulnerability scanner powered by the global security c|attack-surface,cve-scanner,dast,hacktoberfest
+nginx/nginx|32122|C|2015-06|2026-11|The official NGINX Open Source repository.|content-cache,http,http2,http3
+imthenachoman/How-To-Secure-A-Linux-Server|32064|-|2019-02|2026-09|An evolving how-to guide for securing a Linux server.|cc-by-sa,hardening,hardening-steps,linux
+StevenBlack/hosts|31464|Python|2012-04|2026-11|🔒 Consolidating and extending hosts files from several well-curated sources. Optional|ad-blocker,anti-virus,curated-sources,gambling-filter
+gitleaks/gitleaks|31015|Go|2018-01|2026-10|Find secrets with Gitleaks 🔑|ai-powered,ci-cd,cicd,cli
+Infisical/infisical|30508|TypeScript|2022-08|2026-11|Infisical is the open-source platform for securing secrets, certificates, access, and|acme,agents,ai-agents,certificate-management
+trailofbits/algo|30470|Python|2016-05|2026-11|Set up a personal VPN in the cloud|ansible,encryption,ikev2,ipsec
+community-scripts/ProxmoxVE|30117|Shell|2024-11|2026-11|Proxmox VE Helper-Scripts (Community Edition) |alpine,authentification,container,debian
+keepassxreboot/keepassxc|29991|C++|2016-02|2026-11|KeePassXC is a cross-platform community-driven port of the Windows application “KeePa|cross-platform,hacktoberfest,keepass,keepassxc
+
+## testing
+goldbergyoni/nodebestpractices|105737|Dockerfile|2017-09|2026-06|✅ The Node.js best practices list (July 2026)|best-practices,es6,eslint,express
+microsoft/playwright|100142|TypeScript|2019-11|2026-11|Playwright is a framework for Web Testing and Automation. It allows testing Chromium,|automation,chrome,chromium,e2e-testing
+storybookjs/storybook|91562|TypeScript|2016-03|2026-11|Storybook is the industry standard workshop for building, documenting, and testing UI|angular,components,design-systems,documentation
+jestjs/jest|45473|TypeScript|2013-12|2026-11|Delightful JavaScript Testing.|easy,expectation,facebook,immersive
+promptfoo/promptfoo|27158|TypeScript|2023-04|2026-11|Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning fo|ci,ci-cd,cicd,evaluation
+stretchr/testify|26248|Go|2012-10|2026-11|A toolkit with common assertions and mocks that plays nicely with the standard librar|assertions,go,golang,mocking
+goldbergyoni/javascript-testing-best-practices|24613|JavaScript|2019-07|2024-06|📗🌐 🚢 Comprehensive and exhaustive JavaScript & Node.js testing best practices (August|angular,chai,ci,cicd
+quii/learn-go-with-tests|23961|Go|2018-03|2026-10|Learn Go with test-driven development|go,golang,tdd,test-driven-development
+mochajs/mocha|22911|JavaScript|2011-03|2026-11|☕️ Classic, reliable, trusted test framework for Node.js and the browser|bdd,browser,javascript,mocha
+catchorg/Catch2|21561|C++|2010-11|2026-11|A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17|bdd,cpp,cpp14,framework
+avajs/ava|20828|JavaScript|2014-11|2026-11|Node.js test runner that lets you develop with confidence 🚀|assert,async,async-functions,ava
+enzymejs/enzyme|19800|JavaScript|2015-11|2025-10|JavaScript Testing utilities for React|assertion-library,assertions,ava,chai
+keploy/keploy|19766|Go|2022-01|2026-11|Open-source platform for creating safe, isolated production sandboxes for API, integr|agentic-ai,ai-testing-tool,api-testing,code-quality
+testing-library/react-testing-library|19681|JavaScript|2018-03|2026-08|🐐 Simple and complete React DOM testing utilities that encourage good testing practic|javascript,reactjs,testing
+joke2k/faker|19491|Python|2012-11|2026-11|Faker is a Python package that generates fake data for you.|dataset,fake,fake-data,faker
+probelabs/goreplay|19323|Go|2013-05|2026-01|GoReplay is an open-source tool for capturing and replaying live HTTP traffic into a |devops,go,qa,testing
+Orange-OpenSource/hurl|19321|Rust|2020-08|2026-11|Hurl, run and test HTTP requests with plain text.|api-testing,cli,curl,http
+google/artemis|17431|Python|2026-08|2026-10|ARTEMIS turns natural-language instructions into reliable Android automation. It auto|ai-agents,android,google,test-automation
+jasmine/jasmine|15808|JavaScript|2008-12|2026-11|Simple JavaScript testing framework for browsers and node.js|jasmine,javascript,tdd,testing
+web-infra-dev/midscene|15611|TypeScript|2024-07|2026-11|See interfaces like a human. E2E testing in natural language.|browser-use,computer-use,e2e-testing,gpt-operator
+mockito/mockito|15449|Java|2012-10|2026-11|Most popular Mocking framework for unit tests written in Java|java,java-library,mock,mock-library
+pytest-dev/pytest|14683|Python|2015-06|2026-11|The pytest framework makes it easy to write small tests, yet scales to support comple|hacktoberfest,python,test,testing
+
+## self-hosted
+immich-app/immich|119140|TypeScript|2022-02|2026-11|High performance self-hosted photo and video management solution.|backup-tool,flutter,google-photos,google-photos-alternative
+Stirling-Tools/Stirling-PDF|96552|TypeScript|2023-01|2026-11|#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere|docker,hacktoberfest,java,pdf
+louislam/uptime-kuma|94032|JavaScript|2021-07|2026-11|A fancy self-hosted monitoring tool|docker,monitor,monitoring,responsive
+coollabsio/coolify|66066|PHP|2021-01|2026-11|An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets |coolify,databases,deployment,docker
+usememos/memos|64460|Go|2021-12|2026-11|Memos is an open-source, self-hosted note-taking app that brings your everyday though|docker,foss,go,markdown
+pathwaycom/serviette|58710|Python|2023-07|2026-11|A no-code RAG server that keeps answers in sync with your documents. Works with 8 vec|chromadb,document-qa,document-search,duckdb
+appwrite/appwrite|58085|TypeScript|2019-04|2026-11|The open-source cloud for agents & devs. Including Auth, Databases, Storage, Function|android,appwrite,backend,backend-as-a-service
+QuantumNous/new-api|51907|Go|2023-11|2026-11|Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-comp|ai-gateway,api-management,claude,deepseek
+HKUDS/nanobot|50075|Python|2026-02|2026-11|Your lightweight open-source personal agent.|agent-framework,ai-agent,ai-agents,chatbot
+gogs/gogs|47934|Go|2014-02|2026-11|The painless way to host your own Git service|docker,git,go,gogs
+siyuan-note/siyuan|47219|TypeScript|2020-08|2026-11|An open-source, privacy-first, self-hosted knowledge workspace where humans and AI ag|agentic-ai,ai-agent,knowledge-base,local-first
+reactive-resume/reactive-resume|45736|TypeScript|2020-03|2026-11|A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, cu|agent-skills,ai,dsh-plugin,hacktoberfest
+janhq/jan|45718|Rust|2023-08|2026-11|Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.|chatgpt,gpt,llamacpp,llm
+ToolJet/ToolJet|41230|HTML|2021-03|2026-11|Open-source foundation of ToolJet AI - the enterprise app generation platform for int|ai-app-builder,docker,internal-applications,internal-project
+photoprism/photoprism|40447|Go|2018-01|2026-11|AI-Powered Photos App 🌈💎✨|ai,golang,google-photos,machine-learning
+TriliumNext/Trilium|38932|TypeScript|2017-05|2026-11|Build your personal knowledge base with Trilium Notes|electron,electron-app,knowledge-base,knowledge-graph
+glanceapp/glance|38182|Go|2024-04|2026-11|A self-hosted dashboard that puts all your feeds in one place|aggregator,dashboard,docker,feed-reader
+agentscope-ai/QwenPaw|37731|TypeScript|2026-02|2026-11|Your Personal AI Assistant; easy to install, deploy on your own machine or on the clo|agent,agent-harness,agentscope,ai-agent
+IceWhaleTech/CasaOS|37643|Go|2021-09|2026-11|CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.|casaos,docker,golang,home-automation
+langfuse/langfuse|37418|TypeScript|2023-05|2026-11|🪢 Open source AI engineering platform: AI Gateway, agent observability, evals, and pr|ai-gateway,analytics,evaluation,gateway
+filebrowser/filebrowser|35850|Go|2015-09|2026-07|File Browser provides a file managing interface within a specified directory and it c|file-browser,file-manager,file-sharing,go
+dgtlmoon/changedetection.io|35805|Python|2021-01|2026-11|Best and simplest tool for website change detection, web page monitoring, and website|back-in-stock,change-alert,change-detection,change-monitoring
+
+## docs
+DigitalPlatDev/FreeDomain|208132|Markdown|2024-05|2026-08|Free domain registration and practical DNS learning resources for everyone.|digitalplat,dns,dns-tutorial,documentation
+jlevy/the-art-of-command-line|162750|-|2015-05|2024-06|Master the command line, in one page|bash,documentation,linux,macos
+mermaid-js/mermaid|91094|TypeScript|2014-11|2026-11|Generation of diagrams like flowcharts or sequence diagrams from text in a similar ma|diagrams,diagrams-as-code,documentation,flowchart
+AppFlowy-IO/AppFlowy|78890|Dart|2021-06|2026-11|Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative w|blog,confluence-alternative,content-management,content-services
+meta/docusaurus|66733|TypeScript|2017-06|2026-11|Easy to maintain open source documentation websites.|documentation,hacktoberfest,javascript,open-source
+charlax/professional-programming|51675|Python|2015-11|2026-10|A collection of learning resources for curious software engineers|architecture,computer-science,concepts,documentation
+chubin/cheat.sh|41861|Python|2017-05|2026-09|the only cheat sheet you need|cheatsheet,cli,command-line,curl
+freeCodeCamp/devdocs|39638|Ruby|2013-10|2026-11|API Documentation Browser|api-documentation,app,devdocs,developer-tools
+satwikkansal/wtfpython|37144|Python|2017-08|2026-01|What the f*ck Python? 😱|documentation,gotchas,interview-questions,pitfalls
+docsifyjs/docsify|31589|JavaScript|2016-11|2026-11|🃏 A magical documentation site generator.|doc,docs,docsify,documentation
+requarks/wiki|29287|TypeScript|2016-08|2026-11|Wiki.js | Next Generation Open Source Wiki|cross-platform,documentation,git,markdown
+GitbookIO/gitbook|29099|TypeScript|2014-03|2026-11|The open source frontend for GitBook doc sites|documentation,git,gitbook,markdown
+squidfunk/mkdocs-material|27612|Python|2016-01|2026-11|Documentation that simply works|documentation,framework,material-design,mkdocs
+pedronauck/docz|23555|TypeScript|2018-03|2025-11|✍ It has never been so easy to document your things!|design-system,docs,documentation,docz
+shimohq/chinese-programmer-wrong-pronunciation|23376|JavaScript|2017-02|2026-09|中国程序员容易发音错误的单词|chinese-programmers,documentation,pronunciation,spelling
+mkdocs/mkdocs|22546|Python|2014-01|2025-10|Project documentation with Markdown.|documentation,markdown,mkdocs,python
+docmost/docmost|22336|TypeScript|2023-08|2026-11|Docmost is an open-source collaborative wiki and documentation software. It is an ope|ai,ai-agents,collaborative,confluence
+BookStackApp/BookStack|19144|PHP|2015-08|2026-11|NOW MANAGED ON CODEBERG|bookstack,documentation,laravel,php
+architecture-decision-record/architecture-decision-record|17464|CSS|2016-10|2026-11|Architecture decision record (ADR) examples for software planning, IT leadership, and|adr,architecture-decision-record,decision-record,decisions
+suitenumerique/docs|16991|TypeScript|2024-01|2026-11|Docs is an open-source text editor: web-native, made for real-time collaboration, cle|blocknotejs,collaborative,django,documentation
+iamgio/quarkdown|16382|Kotlin|2024-01|2026-11|🪐 Markdown with superpowers: from ideas to papers, presentations, websites, books, an|compiler,documentation,knowledge-management,markdown
+sparanoid/chinese-copywriting-guidelines|15842|-|2014-03|2026-10|Chinese copywriting guidelines for better written communication／中文文案排版指北|chinese,chinese-simplified,chinese-traditional,copywriting
+
+## awesome
+avelino/awesome-go|193841|Go|2014-07|2026-11|A curated list of awesome Go frameworks, libraries and software|awesome,awesome-list,go,golang
+521xueweihan/HelloGitHub|188775|Python|2016-05|2026-10|:octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects |awesome,github,hellogithub,python
+jaywcjlove/awesome-mac|118497|Swift|2016-07|2026-11| This project is dedicated to collecting high-quality macOS software and organizing |app,apple,application,apps
+papers-we-love/papers-we-love|111494|Shell|2013-12|2026-10|Papers from the computer science community to read and discuss.|awesome,computer-science,meetup,papers
+MunGell/awesome-for-beginners|91399|-|2015-10|2026-10|A list of awesome beginners-friendly projects.|awesome,awesome-list,beginner-project,beginners-friendly
+DopplerHQ/awesome-interview-questions|85574|-|2015-11|2024-07|:octocat: A curated awesome list of lists of interview questions. Feel free to contri|android-interview-questions,angularjs-interview-questions,awesome,awesome-list
+enaqx/awesome-react|75275|-|2014-08|2026-09|A collection of awesome things regarding React ecosystem|awesome,awesome-list,javascript,react
+fffaraz/awesome-cpp|74410|-|2014-07|2026-11|A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny thin|awesome,awesome-list,c,c-plus-plus
+prakhar1989/awesome-courses|72858|-|2014-11|2023-05|:books: List of awesome university courses for learning Computer Science!|awesome,awesome-list,computer-science,courses
+sindresorhus/awesome-nodejs|67499|-|2014-07|2026-09|:zap: Delightful Node.js packages and resources [BECAUSE OF TOO MUCH SPAM AND LOW-QUA|awesome,awesome-list,javascript,list
+Solido/awesome-flutter|61899|Dart|2017-05|2026-09|An awesome list that curates the best Flutter libraries, tools, tutorials, articles a|android,awesome,awesome-list,collections
+rust-unofficial/awesome-rust|60527|Rust|2014-07|2026-11|A curated list of Rust code and resources.|awesome,rust
+tiimgreen/github-cheat-sheet|60364|-|2014-04|2024-04|A list of cool features of Git and GitHub.|awesome,awesome-list,git,github
+wasabeef/awesome-android-ui|58462|-|2014-12|2026-06|A curated list of awesome Android UI/UX libraries|android,awesome,ui
+hesreallyhim/awesome-claude-code|57971|Python|2025-04|2026-11|A hand-picked collection of the finest of resources for the most awesome of agents, C|agent-skills,agentic-code,agentic-coding,ai-workflow-optimization
+vsouza/awesome-ios|53982|Swift|2014-07|2026-08|A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects |apple-swift,arkit,awesome,ios
+VoltAgent/awesome-openclaw-skills|53758|-|2026-01|2026-10|The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized fro|agent-skills,awesome,awesome-list,awesome-lists
+dkhamsing/open-source-ios-apps|53259|-|2015-01|2026-11|:iphone: Collaborative List of Open-Source iOS Apps|app,apple,apple-tv,apple-vision-pro
+serhii-londar/open-source-mac-os-apps|51371|-|2017-11|2026-10|🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosa|applications,apps,awesome,awesome-list
+lukasz-madon/awesome-remote-job|50606|-|2015-01|2026-09|A curated list of awesome remote jobs and resources. Inspired by https://github.com/v|awesome,awesome-list,list
+DovAmir/awesome-design-patterns|49739|-|2018-06|2024-10|A curated list of software and architecture related design patterns.|architecture,awesome,awesome-list,cloud-computing
+akullpp/awesome-java|49532|-|2014-07|2026-09|A curated list of awesome frameworks, libraries and software for the Java programming|awesome,awesome-list
+
+## new-month
+Gathin23/cleanyourtv|57604|Python|2026-10|2026-11|Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.|adb,adblock,android-tv,android-tv-launcher
+storytold/craft-anything|31989|Rust|2026-10|2026-11|Craft Anything: understand how any software works, and craft your own.|
+deepseek-ai/DeepInfer|26001|Python|2026-10|2026-11|DeepInfer: High-performance, large-scale inference framework for DeepSeek models|
+deepseek-ai/dsh-superagent-prototype|23091|TypeScript|2026-10|2026-11|Towards a More Autonomous Agent System|
+ccch1mneyyy/dsh-Go|22280|Dart|2026-10|2026-11|dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。|ai-agent,android,android-app,coding-agent
+Zagitta/gpu-unlock|19326|C|2026-10|2026-10|Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2×|
+heydamir/unslop|15833|JavaScript|2026-10|2026-11|A Claude skill that turns vibecoded, AI-looking UI into a designed interface|
+pengchujin/aerial-tv|11748|Kotlin|2026-10|2026-11|给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi|
+amosblomqvist/learnharness|9320|TypeScript|2026-10|2026-11|Agent harness for learning difficult things.|
+anefzaoui/misterdownloadmanager|9255|Rust|2026-10|2026-11|misterdownloadmanager: The ultimate open-source, clean-room download manager written |bittorrent-client,debrid,download-accelerator,download-manager
+zortos293/Lichii|9070|C++|2026-10|2026-11|VERY experimental Nintendo Switch 2 emulator|
+l0ng-ai/openidea|8955|TypeScript|2026-10|2026-11|The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and searc|code-editor,cross-platform,dap,database-client
+Minireel/HGhub|8836|-|2026-11|2026-11|YellowFruit third-party client|android,drama,free,movie-web-app
+wangzan101/Mika|8561|Kotlin|2026-10|2026-11|An on-device AI agent for Android that operates apps and the web to get things done f|accessibility,ai-agent,android,automation
+janestreet/agent_skills|8414|-|2026-11|2026-11|Agent skills|
+JuneYaooo/rea-video|8227|Python|2026-10|2026-11|Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to r|agent-skills,ai-video,aigc-detection,claude-code
+kingcharleslzy-ai/dsh-purge|8127|JavaScript|2026-10|2026-11|dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚。基于小杨 / YuJunZh|agent-tools,backup,deepseek,deepseek-harness
+xiaoyang111222/cn-math-taxonomy|8003|Python|2026-10|2026-11|数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。|chinese,curriculum,diagnostic,edtech
+rddmwmddr/android-ad-cleaner|7957|Python|2026-10|2026-11|关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。|adb,ai-agent,android,coloros
+unclebob/ub-mode|7938|-|2026-10|2026-11||
+ly05010419/MacNativeGames|7781|C|2026-10|2026-11|Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon M|apple-silicon,arm64,breath-of-the-wild,game-port
+Jakeschincariol/day-trader-skill|7694|Python|2026-10|2026-10|11 Claude skills for day trading: scan thousands of charts, track breaking news, time|backtesting,claude,claude-skills,day-trading
+
+## new-week
+huamidev/GestaltX|7475|Swift|2026-11|2026-11|An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, b|
+jhaizhou-ops/S2Arm|2917|C#|2026-11|2026-11|Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to AR|apple-silicon,arm64,game-porting,ios
+Kianuni/Erosion-CN|1994|Swift|2026-11|2026-11|iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）|
+apex-compute/ANR|1623|C++|2026-11|2026-11|Apex Neural Rendering (ANR) by Apex Compute|
+HybridRobotics/supermimic|1476|Python|2026-11|2026-11|Humanoid whole-body motion tracking with one differentiable world model.|
+deepseek-ai/chat-demo|1377|TypeScript|2026-11|2026-11|Chat Demo|
+agentes-chat/agentes-chat|1364|TypeScript|2026-11|2026-11|Open-source, self-hosted Slack alternative where your team and AI agents work togethe|agentic-ai,ai-agents,browser-automation,chat
+FrigadeHQ/yogurt|1351|TypeScript|2026-11|2026-11|Private AI meeting notes that stay on your computer. A free, open-source alternative |ai-meeting-assistant,ai-notetaker,electron,granola-alternative
+HolyArrs/HolyArrs|1138|Go|2026-11|2026-11|One self-hosted app for your shows, movies and music.|docker,homelab,jellyfin,media-server
+DevedevT/FFmpeg-GUI-Editor-Windows|1040|Visual Basic .NET|2026-11|2026-11|Lightweight portable FFmpeg GUI & lossless video trimmer for Windows (ready-to-use .e|converter,ffmpeg,ffmpeg-command,ffmpeg-gui
+kolbicz/WQFiles|831|Objective-C|2026-11|2026-11|File browser, app data manager and cache cleaner for iOS 26 and 27 (worse_query, no j|
+alexeyw/lot-map|773|TypeScript|2026-11|2026-11|A live map beside the chat that shows what Claude Code is doing: tool calls, model st|agent-observability,ai-agents,claude,claude-code
+serveroshq/panel|766|PHP|2026-11|2026-11|The open source ServerOS panel: one place to run the Linux servers you already own.|agpl,control-panel,devops,laravel
+adriadam10/mkw-recomp|764|C|2026-11|2026-11|Static recompilation of Mario Kart World (Nintendo Switch 2) to a native PC program|
+JDhruv14/line-art-animation|693|TypeScript|2026-11|2026-11|A Claude skill and TypeScript library for animated line-art SVG components: ink figur|claude-skill,line-art,svg-animation,typescript
+forcequitOS/worse_query|623|Objective-C|2026-11|2026-11|A sandbox escape for iOS 26 and 27, again|
+AIRzZ90/study-materials-fork|572|TypeScript|2026-11|2026-11|A cross-platform Tauri 2 interface and interaction practice project|
+opencoredev/islandcn|543|TypeScript|2026-11|2026-11|The open-source Dynamic Island for React, installed with shadcn.|dynamic-island,nextjs,react,shadcn
+makepad/relax|521|Rust|2026-11|2026-11|Relax Rust JIT|
+Robbyant/lingbot-touch|512|Python|2026-11|2026-11|Learning Heterogeneous Tactile Representation for General Dexterous Manipulation|
+Dodaios/ste80-humanizer|499|Python|2026-11|2026-11|STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way t|agent-skills,ai-writing,asd-ste100,claude-code
+luobinger/PerkRadar|494|TypeScript|2026-11|2026-11|PerkRadar — A self-hosted deals aggregator that fetches freebies, limited-time offers|
