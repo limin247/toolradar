@@ -888,9 +888,14 @@ footer {
   font-variant-numeric: tabular-nums;
 }
 
-.d-actions { display: flex; gap: .45rem; margin-top: 1.5rem; flex-wrap: wrap; }
+.d-actions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .45rem;
+  margin-top: 1.5rem;
+}
+.d-actions .d-link { grid-column: 1 / -1; }
 .d-link {
-  flex: 1 1 auto;
   display: inline-flex;
   align-items: center;
   justify-content: center;
